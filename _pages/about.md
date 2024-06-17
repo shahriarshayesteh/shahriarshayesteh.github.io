@@ -56,11 +56,6 @@ redirect_from:
   - Issued: Vol. 35 (2022): Proceedings of FLAIRS-35
   - Authors: Shahriar Shayesteh, Diana Inkpen
 
-## Programming Skills
-
-- **Languages:** Python, Julia, Java, R
-- **Web Framework:** Django (Basic)
-- **AI Frameworks:** Pytorch, Tensorflow, Keras, Numpy, Sci-Kit Learn, Pandas, NLTK
 
 ## Research Interests
 
@@ -81,14 +76,3 @@ redirect_from:
   - CPSC 340 Machine Learning and Data Mining (Head TA), Fall 2020
   - CPSC 340 Machine Learning and Data Mining, Summer 2020
   - CPSC 340 Machine Learning and Data Mining, Fall 2019
-
-## References
-
-- **Shomir Wilson**, Assistant Professor, College of Information Sciences and Technology at Penn State
-  - Email: shomir@psu.edu
-
-- **Lee Giles**, Professor, College of Information Sciences and Technology at Penn State
-  - Email: shomir@psu.edu
-
-- **Diana Inkpen**, Professor, Ph.D., PEng, University of Ottawa, School of Electrical Engineering and Computer Science
-  - Email: Diana.Inkpen@uottawa.ca
