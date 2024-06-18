@@ -21,9 +21,24 @@ My research projects include [PrivaSeer](https://privaseer.ist.psu.edu), a priva
 - **Department of Canadian Heritage**: AI Qualitative Data Analysis Experiment on Unstructured Text.
 - **Teaching**: Assisted in various computer science and machine learning courses at the University of British Columbia (UBC) and the University of Ottawa, including Head TA experience in Machine Learning and Data Mining.
 
-### General Interests
-- **NLP**: Ethics, privacy, algorithmic fairness, and commonsense reasoning.
-- **Machine Learning**: Fairness, responsible AI, explainable AI, ethics, and foundation models.
+### Ongoing Projects
+**Sector of Activity Prediction for PrivaSeer**
+- **Aim**: Predict the sector of activities related to each website for each company.
+- **Dataset**: Contains around 250k website contents and 10 unique labels representing each industry.
+- **Contributions**:
+  - Developed a method to assign three labels to each summarized website content.
+  - Created a large language model (LLM)--based classifier to predict the sector of activities for a given website in a zero-shot manner.
+  - Compiled and curated a comprehensive dataset for training and evaluation.
+  - Released tools and models to the research community to facilitate further research in sector activity prediction.
+
+**Instruction Tuned DP-Prompt: A Zero Shot Local Privacy-Preserving Approach**
+- **Aim**: Enhance privacy-utility trade-off in defending against author de-anonymization attacks using instruction tuning.
+- **Contributions**:
+  - First to utilize instruction tuning to improve privacy-utility trade-offs with smaller, open-source LLMs.
+  - Tested various models to demonstrate the effectiveness of Instruction-Tuned DP-Prompt.
+  - Applied DPO to T5 to capture nuanced differences between human and ChatGPT styles in paraphrasing movie reviews.
+  - Analyzed the impact of decoding strategy variations on privacy-utility trade-offs, providing guidance for optimization.
+  - Advanced methodologies for privacy-preserving text processing with a flexible, scalable, and efficient approach.
 
 ### Achievements
 - **Full Assistantship from the University of Ottawa**: Recognized for academic excellence and research potential.
