@@ -8,71 +8,23 @@ redirect_from:
   - /about.html
 ---
 
-> I am a first-year PhD student in the [College of Information Sciences and Technology](https://ist.psu.edu/) at Pennsylvania State University. My research focuses on natural language processing and human-centered AI, with a particular interest in ethics, privacy, and fairness in AI systems.
+I am a first-year PhD student at the [College of Information Sciences and Technology](https://ist.psu.edu/) at Pennsylvania State University, where I focus on natural language processing (NLP) and human-centred AI. My research interests include ethics, privacy, and fairness in AI systems.
 
-> My research projects include [PrivaSeer](https://privaseer.ist.psu.edu), a privacy policy analysis project aimed at making privacy policies more accessible and understandable. I have also worked on mitigating social bias in semi-supervised text classification during my time at the University of Ottawa.
+### Key Experience
+- **Penn State**: PrivaSeer - Analyzing and improving the accessibility of privacy policies.
+- **University of Ottawa**: Bias Mitigation in NLP - Addressing social biases in semi-supervised text classification.
+- **Mila - Quebec AI Institute**: Summer School on Responsible AI and Human Rights.
+- **Department of Canadian Heritage**: AI Qualitative Data Analysis Experiment on Unstructured Text.
 
-## Education
+### Highlights
+- **Education**: Ph.D. in Informatics (Penn State), MSc in Computer Science (University of Ottawa), Summer School on Responsible AI (Mila), Non-Degree in Computer Science and Statistics (UBC), BSc in Electrical Engineering (Ferdowsi University).
+- **Research Experience**: Worked on projects at Penn State, University of Ottawa, Mila, and the Department of Canadian Heritage.
+- **Publications**: Co-authored a paper on Generative Adversarial Learning with Negative Data Augmentation, presented at FLAIRS-35.
+- **Skills**: Proficient in Python, Julia, Java, R, with experience in frameworks like Pytorch, Tensorflow, and Django.
+- **Teaching**: Assisted in various computer science and machine learning courses at the University of Ottawa and UBC, including Head TA experience in Machine Learning and Data Mining.
 
-- **Pennsylvania State University**
-  - Ph.D. in Informatics, Fall 2023 - Fall 2026 (Expected)
-  - Supervisors: Dr. Shomir Wilson, Dr. Lee Giles
-  - Concentration: NLP and Human-Centered AI
+### Interests
+- **NLP**: Ethics, privacy, algorithmic fairness, and commonsense reasoning.
+- **Machine Learning**: Fairness, responsible AI, explainable AI, ethics, and foundation models.
 
-- **Mila - Quebec AI Institute**
-  - Summer School on Responsible AI and Human Rights, June 2023
-  - Concentration: Responsible AI and Human Rights
-
-- **University of Ottawa**
-  - Masters of Computer Science, Jan 2021 - June 2023
-  - Supervisor: Dr. Diana Inkpen
-  - Concentration: Applied Artificial Intelligence
-
-- **The University of British Columbia**
-  - Non-Degree Program, Sep 2017 - May 2020
-  - Concentration: Computer Science and Statistics
-
-- **Ferdowsi University of Mashhad**
-  - Bachelor of Science, Electrical Engineering, Sep 2010 - Sep 2015
-  - Concentration: Telecommunications Engineering
-
-## Research Experience
-
-- **The Human Language Technologies Lab at Penn State**
-  - Research Field: PrivaSeer (Privacy Policy Analysis Project)
-  - Fall 2023 - Fall 2026 (Expected)
-
-- **NLP Laboratory, University of Ottawa**
-  - Research Field: Mitigating Social Bias in Semi-Supervised Text Classification
-  - Jan 2021 - June 2023
-
-- **Department of Canadian Heritage**
-  - Research Field: AI Qualitative Data Analysis Experiment on Unstructured Text
-  - Feb 2022 - April 2022
-
-## Publications
-
-- **Generative Adversarial Learning with Negative Data Augmentation for Semi-supervised Text Classification**
-  - Issued: Vol. 35 (2022): Proceedings of FLAIRS-35
-  - Authors: Shahriar Shayesteh, Diana Inkpen
-
-
-## Research Interests
-
-- **Natural Language Processing:** Ethics in NLP, NLP in Computational Social Science, Algorithmic Fairness in NLP, Privacy in NLP, Commonsense Reasoning in NLP
-- **Machine Learning:** Fairness in AI, Responsible AI, Explainable AI, Ethics in AI, Graph Neural Networks, Foundation Models
-
-## Teaching Assistant Experience
-
-- **The University of Ottawa**
-  - CSI5389 Electronic Commerce Technologies, Winter 2023
-  - ITI1121 Introduction To Computing II, Fall 2022
-  - ITI1121 Introduction To Computing II, Winter 2022
-  - ITI1120 Introduction To Computing I, Fall 2021
-
-- **The University of British Columbia**
-  - CPSC 340 Machine Learning and Data Mining, Summer 2021
-  - CPSC 540/440 Advanced Machine Learning, Winter 2021
-  - CPSC 340 Machine Learning and Data Mining (Head TA), Fall 2020
-  - CPSC 340 Machine Learning and Data Mining, Summer 2020
-  - CPSC 340 Machine Learning and Data Mining, Fall 2019
+Feel free to explore my [resume](#) for more details on my academic and professional journey.
