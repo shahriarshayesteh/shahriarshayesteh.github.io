@@ -8,7 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year PhD student at the [College of Information Sciences and Technology](https://ist.psu.edu/) at Pennsylvania State University, where I focus on natural language processing (NLP) and human-centred AI. My research interests include ethics, privacy, and fairness in AI systems.
+I am a first-year PhD student at the [College of Information Sciences and Technology](https://ist.psu.edu/) at Pennsylvania State University, where I focus on natural language processing (NLP) and human-centered AI. My research interests include ethics, privacy, and fairness in AI systems.
+
+My research projects include [PrivaSeer](https://privaseer.ist.psu.edu), a privacy policy analysis project aimed at making privacy policies more accessible and understandable. I have also worked on mitigating social bias in semi-supervised text classification during my time at the University of Ottawa. 
+
+<span style="color: red;">🚨 I am currently leaving the PrivaSeer project at the end of summer and looking for a new lab to pursue projects related to generative AI. 🚨</span>
 
 ### Key Research & Academic Experience
 - **Penn State**: PrivaSeer - Analyzing and improving the accessibility of privacy policies.
@@ -22,11 +26,11 @@ I am a first-year PhD student at the [College of Information Sciences and Techno
 - **Machine Learning**: Fairness, responsible AI, explainable AI, ethics, and foundation models.
 
 ### Achievements
-- Awarded a full assistantship from the University of Ottawa.
-- Graduated with an A.
-- Head TA for the Machine Learning course at UBC.
-- Received a full Graduate Research Assistantship (GRA) from Penn State University.
-- Awarded a full scholarship for the Mila Summer School on Responsible AI and Human Rights.
+- **Full Assistantship from the University of Ottawa**: Recognized for academic excellence and research potential.
+- **Graduated with Honors**: Achieved top grades throughout my academic journey.
+- **Head TA for Machine Learning at UBC**: Demonstrated leadership and expertise in machine learning and data mining.
+- **Graduate Research Assistantship (GRA) at Penn State University**: Awarded for outstanding research capabilities.
+- **Full Scholarship for Mila Summer School**: Selected for the prestigious program on Responsible AI and Human Rights.
 
 ### News
 I am currently leaving the PrivaSeer project at the end of summer and looking to join a new lab to pursue projects related to generative AI.
