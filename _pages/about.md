@@ -30,10 +30,9 @@ I am a first-year PhD student at the [College of Information Sciences and Techno
 - **Graduate Research Assistantship (GRA) at Penn State University**: Awarded for outstanding research capabilities.
 - **Full Scholarship for Mila Summer School**: Selected for the prestigious program on Responsible AI and Human Rights.
 
-<span style="color: green;"> 
-
+  
 ### Ongoing Projects
-
+<font color="green">
 **Sector of Activity Prediction for PrivaSeer**
 - **Aim**: Predict the sector of activities related to each website for each company.
 - **Contributions**:
@@ -47,8 +46,7 @@ I am a first-year PhD student at the [College of Information Sciences and Techno
 - **Contributions**:
   - Pioneered the use of instruction tuning to improve privacy-utility trade-offs with smaller, open-source LLMs.
   - Evaluated various models to demonstrate the effectiveness of Tuned DP-Prompt.
-</span>
-
+</font>
 
 ### News
 I am currently transitioning from the PrivaSeer project and seeking to join a new lab to pursue projects related to generative AI.
