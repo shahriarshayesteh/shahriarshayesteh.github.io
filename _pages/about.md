@@ -30,7 +30,8 @@ I am a first-year PhD student at the [College of Information Sciences and Techno
 - **Graduate Research Assistantship (GRA) at Penn State University**: Awarded for outstanding research capabilities.
 - **Full Scholarship for Mila Summer School**: Selected for the prestigious program on Responsible AI and Human Rights.
 
-<span style="color: green;"> ### Ongoing Projects
+<span style="color: green;"> 
+### Ongoing Projects
 
 **Sector of Activity Prediction for PrivaSeer**
 - **Aim**: Predict the sector of activities related to each website for each company.
