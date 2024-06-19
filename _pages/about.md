@@ -35,6 +35,7 @@ I am a first-year PhD student at the [College of Information Sciences and Techno
 
 <font color="green">
 **Sector of Activity Prediction for PrivaSeer**
+
 - **Aim**: Predict the sector of activities related to each website for each company.
 - **Contributions**:
   - **Dataset**: Compiled around 250k website contents with 10 unique industry labels.
@@ -43,11 +44,13 @@ I am a first-year PhD student at the [College of Information Sciences and Techno
   - Released tools and models to the research community to support further research in sector activity prediction.
 
 **Tuned DP-Prompt: An Aligned Local Differential Privacy Approach for Lightweight LLMs**
+
 - **Aim**: Enhance the privacy-utility trade-off in defending against author de-anonymization attacks using instruction tuning and RLHF to align lightweight LLMs with gold standard proprietary models such as GPT4.
 - **Contributions**:
   - Pioneered the use of instruction tuning to improve privacy-utility trade-offs with smaller, open-source LLMs.
   - Evaluated various models to demonstrate the effectiveness of Tuned DP-Prompt.
 </font>
+
 
 ### News
 I am currently transitioning from the PrivaSeer project and seeking to join a new lab to pursue projects related to generative AI.
