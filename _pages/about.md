@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year PhD student at the [College of Information Sciences and Technology](https://ist.psu.edu/) at Pennsylvania State University, specializing in natural language processing (NLP) and human-centred AI. My research background encompasses ethics, privacy, and fairness in AI systems. I am also interested in NLP, Human-Centered AI, Responsible AI, Safety and Privacy in Large Language Models, LLM Alignment (RLHF, RLAIF), LLM Agents, and Multi-Agent LLM Systems.
+I am a first-year PhD student at the [College of Information Sciences and Technology](https://ist.psu.edu/) at Pennsylvania State University, specializing in natural language processing (NLP) and human-centred AI. My research background encompasses ethics, privacy, and fairness in AI systems.
+
+<font color="pink">My research interests lie in the confluence of NLP, Human-Centered AI, Responsible AI, Safety and Privacy in Large Language Models, LLM Alignment (RLHF, RLAIF), LLM Agents, and Multi-Agent LLM Systems.</font>
 
 
 I have contributed to the [PrivaSeer](https://privaseer.ist.psu.edu) project, which focuses on making privacy policies more accessible and understandable. Additionally, I have addressed social bias in semi-supervised text classification during my tenure at the University of Ottawa.
