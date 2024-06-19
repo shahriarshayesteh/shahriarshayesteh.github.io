@@ -32,6 +32,7 @@ I am a first-year PhD student at the [College of Information Sciences and Techno
 
   
 ### Ongoing Projects
+
 <font color="green">
 **Sector of Activity Prediction for PrivaSeer**
 - **Aim**: Predict the sector of activities related to each website for each company.
@@ -41,7 +42,7 @@ I am a first-year PhD student at the [College of Information Sciences and Techno
   - **Sector of Activity Classifier**: Fine-tuned a large language model (LLM) to predict the sector of activities for a given website in a zero-shot manner.
   - Released tools and models to the research community to support further research in sector activity prediction.
 
-**Tuned DP-Prompt: A Aligned Local Differential Privacy Approach for Lightweight LLMs**
+**Tuned DP-Prompt: An Aligned Local Differential Privacy Approach for Lightweight LLMs**
 - **Aim**: Enhance the privacy-utility trade-off in defending against author de-anonymization attacks using instruction tuning and RLHF to align lightweight LLMs with gold standard proprietary models such as GPT4.
 - **Contributions**:
   - Pioneered the use of instruction tuning to improve privacy-utility trade-offs with smaller, open-source LLMs.
