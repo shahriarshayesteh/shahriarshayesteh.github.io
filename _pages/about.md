@@ -23,7 +23,14 @@ I am a first-year PhD student at the [College of Information Sciences and Techno
 - **Department of Canadian Heritage**: AI Qualitative Data Analysis on Unstructured Text.
 - **Teaching**: Assisted in various computer science and machine learning courses at the University of British Columbia (UBC) and the University of Ottawa, including Head TA responsibilities in Machine Learning and Data Mining.
 
-### Ongoing Projects
+### Achievements
+- **Full Assistantship from the University of Ottawa**: Recognized for academic excellence and research potential.
+- **Graduated with Honors**: Achieved top grades throughout my academic journey.
+- **Head TA for Machine Learning at UBC**: Demonstrated leadership and expertise in machine learning and data mining.
+- **Graduate Research Assistantship (GRA) at Penn State University**: Awarded for outstanding research capabilities.
+- **Full Scholarship for Mila Summer School**: Selected for the prestigious program on Responsible AI and Human Rights.
+
+<span style="color: green;"> ### Ongoing Projects
 
 **Sector of Activity Prediction for PrivaSeer**
 - **Aim**: Predict the sector of activities related to each website for each company.
@@ -33,21 +40,13 @@ I am a first-year PhD student at the [College of Information Sciences and Techno
   - **Sector of Activity Classifier**: Fine-tuned a large language model (LLM) to predict the sector of activities for a given website in a zero-shot manner.
   - Released tools and models to the research community to support further research in sector activity prediction.
 
-**Instruction Tuned DP-Prompt: A Zero-Shot Local Privacy-Preserving Approach**
-- **Aim**: Enhance the privacy-utility trade-off in defending against author de-anonymization attacks using instruction tuning and RLHF.
+**Tuned DP-Prompt: A Aligned Local Differential Privacy Approach for Lightweight LLMs**
+- **Aim**: Enhance the privacy-utility trade-off in defending against author de-anonymization attacks using instruction tuning and RLHF to align light weight LLMs with gold standard proprietary models such as GPT4.
 - **Contributions**:
   - Pioneered the use of instruction tuning to improve privacy-utility trade-offs with smaller, open-source LLMs.
-  - Evaluated various models to demonstrate the effectiveness of Instruction-Tuned DP-Prompt.
-  - Applied Directed Preference Optimization (DPO) to T5 to capture nuanced differences between human and ChatGPT styles in paraphrasing movie reviews.
-  - Analyzed the impact of decoding strategy variations on privacy-utility trade-offs, providing optimization guidance.
-  - Advanced methodologies for privacy-preserving text processing with a flexible, scalable, and efficient approach.
+  - Evaluated various models to demonstrate the effectiveness of Tuned DP-Prompt.
+</span>
 
-### Achievements
-- **Full Assistantship from the University of Ottawa**: Recognized for academic excellence and research potential.
-- **Graduated with Honors**: Achieved top grades throughout my academic journey.
-- **Head TA for Machine Learning at UBC**: Demonstrated leadership and expertise in machine learning and data mining.
-- **Graduate Research Assistantship (GRA) at Penn State University**: Awarded for outstanding research capabilities.
-- **Full Scholarship for Mila Summer School**: Selected for the prestigious program on Responsible AI and Human Rights.
 
 ### News
 I am currently transitioning from the PrivaSeer project and seeking to join a new lab to pursue projects related to generative AI.
