@@ -31,6 +31,7 @@ I am a first-year PhD student at the [College of Information Sciences and Techno
 - **Full Scholarship for Mila Summer School**: Selected for the prestigious program on Responsible AI and Human Rights.
 
 <span style="color: green;"> 
+
 ### Ongoing Projects
 
 **Sector of Activity Prediction for PrivaSeer**
@@ -42,7 +43,7 @@ I am a first-year PhD student at the [College of Information Sciences and Techno
   - Released tools and models to the research community to support further research in sector activity prediction.
 
 **Tuned DP-Prompt: A Aligned Local Differential Privacy Approach for Lightweight LLMs**
-- **Aim**: Enhance the privacy-utility trade-off in defending against author de-anonymization attacks using instruction tuning and RLHF to align light weight LLMs with gold standard proprietary models such as GPT4.
+- **Aim**: Enhance the privacy-utility trade-off in defending against author de-anonymization attacks using instruction tuning and RLHF to align lightweight LLMs with gold standard proprietary models such as GPT4.
 - **Contributions**:
   - Pioneered the use of instruction tuning to improve privacy-utility trade-offs with smaller, open-source LLMs.
   - Evaluated various models to demonstrate the effectiveness of Tuned DP-Prompt.
