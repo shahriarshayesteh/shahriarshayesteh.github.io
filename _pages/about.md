@@ -18,23 +18,25 @@ I am a first-year PhD student at [IST College](https://ist.psu.edu/), Pennsylvan
 
 <hr>
 
-### Ongoing Projects
+# Ongoing Projects
 
-**Sector of Activity Prediction for PrivaSeer**
+## Sector of Activity Prediction for PrivaSeer
 
-- **Aim**: Predict the sector of activities from companies' website content.
-- **Contributions**:
-  - **Dataset**: Collected around 250k website contents with 10 unique industry labels as the gold standard.
-  - Developed a new paradigm inspired by the multi-sectoral approach of the companies' activities to assign the three most related sectors to each website content.
-  - **Sector of Activity Classifier**: Fine-tuned a large language model (LLM) to predict the sector of activities for a given website using zero-shot learning.
-  - Released tools and models to the research community to support further research in the sector of activity prediction.
+**Aim:** Predict the sector of activities from companies' website content.
 
-**Tuned DP-Prompt: An Aligned Local Differential Privacy Approach for Lightweight LLMs**
+**Contributions:**
+- **Dataset:** Collected around 250k website contents with 10 unique industry labels as the gold standard.
+- **New Paradigm:** Developed a multi-sectoral approach to assign the three most related sectors to each website content.
+- **Sector of Activity Classifier:** Fine-tuned a large language model (LLM) for zero-shot learning to predict the sector of activities for a given website.
+- **Community Tools:** Released tools and models to the research community to support further research in sector of activity prediction.
 
-- **Aim**: Enhance the privacy-utility trade-off in defending against author de-anonymization attacks using instruction tuning and RLHF to align lightweight LLMs with gold standard proprietary models such as GPT4.
-- **Contributions**:
-  - Pioneered the use of instruction tuning to improve privacy-utility trade-offs with smaller, open-source LLMs.
-  - Evaluated various models to demonstrate the effectiveness of Tuned DP-Prompt.
+## Tuned DP-Prompt: An Aligned Local Differential Privacy Approach for Lightweight LLMs
+
+**Aim:** Enhance the privacy-utility trade-off in defending against author de-anonymization attacks using instruction tuning and RLHF to align lightweight LLMs with gold standard proprietary models such as GPT-4.
+
+**Contributions:**
+- **Instruction Tuning:** Pioneered the use of instruction tuning to improve privacy-utility trade-offs with smaller, open-source LLMs.
+- **Effectiveness Evaluation:** Evaluated various models to demonstrate the effectiveness of Tuned DP-Prompt.
 
 ### Key Research & Academic Experience
 - **Penn State**: PrivaSeer - Enhancing the accessibility of privacy policies.
