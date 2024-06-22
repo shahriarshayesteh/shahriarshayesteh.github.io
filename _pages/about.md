@@ -14,7 +14,7 @@ I am a first-year PhD student at the [College of Information Sciences and Techno
 
 <hr>
 
- I am transitioning from the PrivaSeer project and seeking a new lab to continue my work in generative AI.
+ ## <i class="fa fa-newspaper-o"></i> I am transitioning from the PrivaSeer project and seeking a new lab to continue my work in generative AI.
  
 
 ### Ongoing Projects
