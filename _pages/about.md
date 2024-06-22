@@ -8,13 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year PhD student at the [IST College](https://ist.psu.edu/) at Pennsylvania State University. I am currently a member of [HLT lab](https://shomir.net/research.html) contributing to the [PrivaSeer](https://privaseer.ist.psu.edu) project led by [Dr. Wilson](https://shomir.net/index.html) and [Dr.Giles](https://clgiles.ist.psu.edu/), which focuses on making privacy policies more accessible and understandable. 
+I am a first-year PhD student at [IST College](https://ist.psu.edu/), Pennsylvania State University. Currently, I am a member of [HLT lab](https://shomir.net/research.html), contributing to the [PrivaSeer](https://privaseer.ist.psu.edu) project led by [Dr. Wilson](https://shomir.net/index.html) and [Dr.Giles](https://clgiles.ist.psu.edu/). This project aims to enhance the accessibility and comprehensibility of privacy policy documents.
 
 <font color="green">My research interests lie in the confluence of NLP, Human-Centered AI, Responsible AI, Safety and Privacy in Large Language Models, LLM Alignment (RLHF, RLAIF), LLM Agents, and Multi-Agent LLM Systems.</font>
 
 <hr>
 
-<i class="fa fa-bell"></i> I am transitioning from the PrivaSeer project and seeking a new lab to continue my work in generative AI.
+<i class="fa fa-bell"></i> I am in the process of moving on from the PrivaSeer project and exploring opportunities to continue my research in generative AI within a new lab.
 
 <hr>
 
