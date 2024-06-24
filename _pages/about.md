@@ -58,4 +58,4 @@ I am a first-year PhD student at [IST College](https://ist.psu.edu/), Pennsylvan
 ### News
 I am currently transitioning from the PrivaSeer project and seeking to join a new lab to pursue projects related to generative AI.
 
-Feel free to explore my [resume](https://drive.google.com/file/d/1Bj5AoTuuF4H10rj-R0oDGu51Dl1kK-IH/view?usp=drive_link) for more details on my academic and professional journey.
+Feel free to explore my [resume](https://drive.google.com/file/d/1Bj5AoTuuF4H10rj-R0oDGu51Dl1kK-IH/view?usp=sharing) for more details on my academic and professional journey.
