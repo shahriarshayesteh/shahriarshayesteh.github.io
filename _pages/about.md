@@ -35,16 +35,10 @@ I am a PhD student at [IST College](https://ist.psu.edu/), Pennsylvania State Un
 ### Key Research & Academic Experience
 - **Penn State**: PrivaSeer - Enhancing the accessibility of privacy policies.
 - **Mila - Quebec AI Institute**: Summer School on Responsible AI and Human Rights.
-- **University of Ottawa**: Bias Mitigation in NLP - Reducing social biases in semi-supervised text classification.
-- **Department of Canadian Heritage**: AI Qualitative Data Analysis on Unstructured Text.
+- **University of Ottawa**: Bias Mitigation in NLP - Reducing social biases in semi-supervised toxic text classification.
+- **Department of Canadian Heritage**: AI-Driven Qualitative Analysis of Unstructured Text on the Challenges Faced by Canadian Artists
+During COVID-19.
 - **Teaching**: Assisted in various computer science and machine learning courses at the University of British Columbia (UBC) and the University of Ottawa, including Head TA responsibilities in Machine Learning and Data Mining.
 
-### Achievements
-- **Full Assistantship from the University of Ottawa**: Recognized for academic excellence and research potential.
-- **Graduated with Honors**: Achieved top grades throughout my academic journey.
-- **Head TA for Machine Learning at UBC**: Demonstrated leadership and expertise in machine learning and data mining.
-- **Graduate Research Assistantship (GRA) at Penn State University**: Awarded for outstanding research capabilities.
-- **Full Scholarship for Mila Summer School**: Selected for the prestigious program on Responsible AI and Human Rights.
 
-  
 
