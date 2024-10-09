@@ -8,6 +8,6 @@ redirect_from:
 ---
 {% include base_path %}
 
-[Curriculum Vitae [PDF]](http://shahriarshayesteh.github.io/files/PhD_application_CV.pdf)
+[Curriculum Vitae [PDF]](http://shahriarshayesteh.github.io/files/Fall_Resume_2024 (1).pdf)
 
-<!-- <embed src="(http://shahriarshayesteh.github.io/files/PhD_application_CV.pdf" width="650" height="1800" type='application/pdf'> -->
+<!-- <embed src="(http://shahriarshayesteh.github.io/files/Fall_Resume_2024 (1).pdf" width="650" height="1800" type='application/pdf'> -->
