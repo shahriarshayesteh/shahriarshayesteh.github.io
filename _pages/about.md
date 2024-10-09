@@ -20,25 +20,16 @@ I am a PhD student at [IST College](https://ist.psu.edu/), Pennsylvania State Un
 
 ## Ongoing Projects
 
-### WebSector: Unlocking Multi-Sector Website Classification Using Single Positive Label Paradigm (Submitted to ACM Web Conference 2025)
+### - WebSector: Unlocking Multi-Sector Website Classification Using Single Positive Label Paradigm (Submitted to ACM Web Conference 2025)
 
 **TLDR:** WebSector introduces a dataset and framework for automated multi-sector website classification using Single Positive Label (SPL)  multi-label classification to identify primary and cross-sector activity associations.
 
 
-### LDP-Agent: A Single-Agent Approach for Ensuring Local Differential Privacy in Author De-anonymization Attacks (In Progress)
+### - LDP-Agent: A Single-Agent Approach for Ensuring Local Differential Privacy in Author De-anonymization Attacks (In Progress)
 
 
-### Critical Survey of Current Trends in Autonomous AI Agent Design (In Progress)
+### - Critical Survey of Current Trends in Autonomous AI Agent Design (In Progress)
 
-
-
-#### Key Research & Academic Experience
-- **Penn State**: PrivaSeer - Enhancing the accessibility of privacy policies.
-- **Mila - Quebec AI Institute**: Summer School on Responsible AI and Human Rights.
-- **University of Ottawa**: Bias Mitigation in NLP - Reducing social biases in semi-supervised toxic text classification.
-- **Department of Canadian Heritage**: AI-Driven Qualitative Analysis of Unstructured Text on the Challenges Faced by Canadian Artists
-During COVID-19.
-- **Teaching**: Assisted in various computer science and machine learning courses at the University of British Columbia (UBC) and the University of Ottawa, including Head TA responsibilities in Machine Learning and Data Mining.
 
 
 
