@@ -18,9 +18,9 @@ I am a PhD student at [IST College](https://ist.psu.edu/), Pennsylvania State Un
 
 <hr>
 
-# Ongoing Projects
+## Ongoing Projects
 
-## WebSector: Unlocking Multi-Sector Website Classification Using Single Positive Label Paradigm (Submitted to ACM Web Conference 2025)
+### WebSector: Unlocking Multi-Sector Website Classification Using Single Positive Label Paradigm (Submitted to ACM Web Conference 2025)
 
 **TLDR:** WebSector introduces a dataset and framework for automated multi-sector website classification using Single Positive Label (SPL)  multi-label classification to identify primary and cross-sector activity associations.
 
@@ -32,7 +32,7 @@ I am a PhD student at [IST College](https://ist.psu.edu/), Pennsylvania State Un
 
 
 
-### Key Research & Academic Experience
+#### Key Research & Academic Experience
 - **Penn State**: PrivaSeer - Enhancing the accessibility of privacy policies.
 - **Mila - Quebec AI Institute**: Summer School on Responsible AI and Human Rights.
 - **University of Ottawa**: Bias Mitigation in NLP - Reducing social biases in semi-supervised toxic text classification.
