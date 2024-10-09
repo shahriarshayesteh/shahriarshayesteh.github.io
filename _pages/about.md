@@ -22,7 +22,7 @@ I am a PhD student at [IST College](https://ist.psu.edu/), Pennsylvania State Un
 
 ## WebSector: Unlocking Multi-Sector Website Classification Using Single Positive Label Paradigm (Submitted to ACM Web Conference 2025)
 
-**TLDR:** WebSector introduces a dataset and framework for automated multi-sector website classification using Single Positive Label (SPL)  multi-label classification to identify primary and cross-sector of activity associations.
+**TLDR:** WebSector introduces a dataset and framework for automated multi-sector website classification using Single Positive Label (SPL)  multi-label classification to identify primary and cross-sector activity associations.
 
 
 ## LDP-Agent: A Single-Agent Approach for Ensuring Local Differential Privacy in Author De-anonymization Attacks (In Progress)
@@ -48,8 +48,3 @@ I am a PhD student at [IST College](https://ist.psu.edu/), Pennsylvania State Un
 
   
 
-
-### News
-I am currently transitioning from the PrivaSeer project and seeking to join a new lab to pursue projects related to generative AI.
-
-Feel free to explore my [resume](https://drive.google.com/file/d/1Bj5AoTuuF4H10rj-R0oDGu51Dl1kK-IH/view?usp=sharing) for more details on my academic and professional journey.
