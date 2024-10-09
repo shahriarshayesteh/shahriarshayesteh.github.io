@@ -20,15 +20,15 @@ I am a PhD student at [IST College](https://ist.psu.edu/), Pennsylvania State Un
 
 ## Ongoing Projects
 
-### - WebSector: Unlocking Multi-Sector Website Classification Using Single Positive Label Paradigm (Submitted to ACM Web Conference 2025)
+### * WebSector: Unlocking Multi-Sector Website Classification Using Single Positive Label Paradigm (Submitted to ACM Web Conference 2025)
 
 **TLDR:** WebSector introduces a dataset and framework for automated multi-sector website classification using Single Positive Label (SPL)  multi-label classification to identify primary and cross-sector activity associations.
 
 
-### - LDP-Agent: A Single-Agent Approach for Ensuring Local Differential Privacy in Author De-anonymization Attacks (In Progress)
+### * LDP-Agent: A Single-Agent Approach for Ensuring Local Differential Privacy in Author De-anonymization Attacks (In Progress)
 
 
-### - Critical Survey of Current Trends in Autonomous AI Agent Design (In Progress)
+### * Critical Survey of Current Trends in Autonomous AI Agent Design (In Progress)
 
 
 
