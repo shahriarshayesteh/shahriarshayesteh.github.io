@@ -8,35 +8,29 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year PhD student at [IST College](https://ist.psu.edu/), Pennsylvania State University. Currently, I am a member of [HLT lab](https://shomir.net/research.html), contributing to the [PrivaSeer](https://privaseer.ist.psu.edu) project led by [Dr. Wilson](https://shomir.net/index.html) and [Dr.Giles](https://clgiles.ist.psu.edu/). This project aims to enhance the accessibility and comprehensibility of privacy policy documents.
+I am a PhD student at [IST College](https://ist.psu.edu/), Pennsylvania State University. Currently, I am a member of [HLT lab](https://shomir.net/research.html), contributing to the [PrivaSeer](https://privaseer.ist.psu.edu) project led by [Dr. Wilson](https://shomir.net/index.html) and [Dr.Giles](https://clgiles.ist.psu.edu/). This project aims to enhance the accessibility and comprehensibility of privacy policy documents.
 
-<font color="green">My research interests lie in the confluence of NLP, Human-Centered AI, Responsible AI, Safety and Privacy in Large Language Models, LLM Alignment (RLHF, RLAIF), LLM Agents, and Multi-Agent LLM Systems.</font>
+<font color="green">My research focuses on NLP, Human-Centered AI, and Responsible AI, with an emphasis on the safety, privacy, and alignment of Large Language Models (LLMs) through techniques like RLHF and RLAIF. I also explore LLM agents and multi-agent systems as a new research direction.</font>
 
 <hr>
 
-<i class="fa fa-bell"></i> I am in the process of moving on from the PrivaSeer project and exploring opportunities to continue my research in generative AI within a new lab.
+<i class="fa fa-bell"></i> I am in the process of moving on from the PrivaSeer project and exploring opportunities to continue my research in generative AI.
 
 <hr>
 
 # Ongoing Projects
 
-## Sector of Activity Prediction for PrivaSeer
+## WebSector: Unlocking Multi-Sector Website Classification Using Single Positive Label Paradigm (Submitted to ACM Web Conference 2025)
 
-**Aim:** Predict the sector of activities from companies' website content.
+**TLDR:** WebSector introduces a dataset and framework for automated multi-sector website classification using Single Positive Label (SPL)  multi-label classification to identify primary and cross-sector of activity associations.
 
-**Contributions:**
-- **Dataset:** Collected around 250k website contents with 10 unique industry labels as the gold standard.
-- **New Paradigm:** Developed a multi-sectoral approach to assign the three most related sectors to each website content.
-- **Sector of Activity Classifier:** Fine-tuned a large language model (LLM) for zero-shot learning to predict the sector of activities for a given website.
-- **Community Tools:** Released tools and models to the research community to support further research in sector of activity prediction.
 
-## Tuned DP-Prompt: An Aligned Local Differential Privacy Approach for Lightweight LLMs
+## LDP-Agent: A Single-Agent Approach for Ensuring Local Differential Privacy in Author De-anonymization Attacks (In Progress)
 
-**Aim:** Enhance the privacy-utility trade-off in defending against author de-anonymization attacks using instruction tuning and RLHF to align lightweight LLMs with gold standard proprietary models such as GPT-4.
 
-**Contributions:**
-- **Instruction Tuning:** Pioneered the use of instruction tuning to improve privacy-utility trade-offs with smaller, open-source LLMs.
-- **Effectiveness Evaluation:** Evaluated various models to demonstrate the effectiveness of Tuned DP-Prompt.
+## Critical Survey of Current Trends in Autonomous AI Agent Design (In Progress)
+
+
 
 ### Key Research & Academic Experience
 - **Penn State**: PrivaSeer - Enhancing the accessibility of privacy policies.
