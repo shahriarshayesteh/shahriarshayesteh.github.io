@@ -12,11 +12,7 @@ I am a PhD student at [IST College](https://ist.psu.edu/), Pennsylvania State Un
 
 <font color="green">My research focuses on NLP, Human-Centered AI, and Responsible AI, with an emphasis on the safety, privacy, and alignment of Large Language Models (LLMs) through techniques like RLHF and RLAIF. I also explore LLM agents and multi-agent systems as a new research direction.</font>
 
-<hr>
 
-<i class="fa fa-bell"></i> I am in the process of moving on from the PrivaSeer project and exploring opportunities to continue my research in generative AI.
-
-<hr>
 
 ## Ongoing Projects
 
