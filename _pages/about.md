@@ -8,24 +8,65 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student at [IST College](https://ist.psu.edu/), Pennsylvania State University. Currently, I am a member of [HLT lab](https://shomir.net/research.html), contributing to the [PrivaSeer](https://privaseer.ist.psu.edu) project led by [Dr. Wilson](https://shomir.net/index.html) and [Dr.Giles](https://clgiles.ist.psu.edu/). This project aims to enhance the accessibility and comprehensibility of privacy policy documents.
+I am a PhD student in the College of Information Sciences and Technology at [Pennsylvania State University](https://ist.psu.edu/), where I contribute to the [PrivaSeer Project](https://privaseer.ist.psu.edu/) under the supervision of [Dr. Shomir Wilson](https://shomir.net/index.html) and [Dr. C. Lee Giles](https://clgiles.ist.psu.edu/). My research lies at the intersection of **Natural Language Processing (NLP)**, **Responsible AI**, and **Human-Centered Computing**.
 
-<font color="green">My research focuses on NLP, Human-Centered AI, and Responsible AI, with an emphasis on the safety, privacy, and alignment of Large Language Models (LLMs) through techniques like RLHF and RLAIF. I also explore LLM agents and multi-agent systems as a new research direction.</font>
+---
+
+## 🔍 Research Interests
+
+My research aims to build tools and frameworks that promote transparency, fairness, and safety in AI systems. Specific areas of interest include:
+
+- **Privacy Policy Analysis**: Large-scale extraction and analysis of privacy practices across industry sectors using NLP and knowledge graph construction.
+- **Safety in Foundation Models and LLM Agents**: Investigating vulnerabilities in LLM-based agents (e.g., red teaming, alignment challenges), with an emphasis on reasoning reliability and human-aligned behavior.
+
+---
+
+## 🧪 Ongoing Projects
+
+1. **Sectoral Norm Discovery: Sectoral Analysis of Website Privacy Notices**  
+   Uncovering sector-specific data practices to define normative patterns in privacy notices across industries.
+
+2. **Tool Selection Safety: Are LLMs Robust to Perturbations in Tool Descriptions?**  
+   Evaluating how LLMs handle tool selection under adversarial prompt perturbations in in-context learning.
+
+3. **Defense Mechanisms for AgentPoison: Red-Teaming LLM Agents via Memory Poisoning**  
+   Designing agents that detect, resist, and cleanse memory from red-teaming attacks involving poisoned prompts.
+
+---
+
+## 📚 Selected Publications
+
+- *SoAC and SoACer: A Sector-Based Corpus and LLM-Based Framework for Sectoral Website Classification*  
+  *To appear in ACM DocEng 2025*
+
+- *The PrivaSeer Project: Large-Scale Resources for Analysis of Privacy Policy Text*  
+  *To appear in USENIX SOUPS 2025*
+
+- *Generative Adversarial Learning with Negative Data Augmentation for Semi-Supervised Text Classification*  
+  *FLAIRS-35, 2022*
+
+For a full list of publications and academic contributions, please refer to [my CV](link_to_your_CV.pdf) or [Google Scholar](#).
 
 
+---
 
-## Ongoing Projects
+## 🤝 Academic Service
 
-### * WebSector: Unlocking Multi-Sector Website Classification Using Single Positive Label Paradigm (Submitted to ACM Web Conference 2025)
+- Reviewer, [5th Workshop on Trustworthy NLP (TrustNLP), NAACL 2025](https://trustnlp.github.io/)
+- Graduate Student Panelist, IST 197: Introduction to Research, Penn State
 
-**TLDR:** WebSector introduces a dataset and framework for automated multi-sector website classification using Single Positive Label (SPL)  multi-label classification to identify primary and cross-sector activity associations.
+---
 
+## 💼 Past Affiliations
 
-### * LDP-Agent: A Single-Agent Approach for Ensuring Local Differential Privacy in Author De-anonymization Attacks (In Progress)
+- **NLP Lab – University of Ottawa**: Worked on mitigating social bias in semi-supervised classification.
+- **Canadian Heritage Research Internship**: Conducted qualitative analysis on challenges faced by Canadian artists during COVID-19.
+- **Mila – Responsible AI Summer School**: Explored policy and ethics in the design of AI systems.
 
+---
 
-### * Critical Survey of Current Trends in Autonomous AI Agent Design (In Progress)
+## 🛠 Skills
 
-
-
+- **Languages**: Python, Java, C++, SQL  
+- **Frameworks**: PyTorch, TensorFlow, Scikit-learn, LangChain, AutoGen  
 
