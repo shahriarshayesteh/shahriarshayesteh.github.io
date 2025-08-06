@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in the College of Information Sciences and Technology at [Pennsylvania State University](https://ist.psu.edu/), where I contribute to the [PrivaSeer Project](https://privaseer.ist.psu.edu/) under the supervision of [Dr. Shomir Wilson](https://shomir.net/index.html) and [Dr. C. Lee Giles](https://clgiles.ist.psu.edu/). My research lies at the intersection of **Natural Language Processing (NLP)**, **Responsible AI**, and **Human-Centered Computing**.
+I am a PhD student in the College of Information Sciences and Technology at [[Pennsylvania State University](https://ist.psu.edu/](https://ist.psu.edu/directory/sxs7285), where I contribute to the [PrivaSeer Project](https://privaseer.ist.psu.edu/people) under the supervision of [Dr. Shomir Wilson](https://shomir.net/index.html) and [Dr. C. Lee Giles](https://clgiles.ist.psu.edu/). My research lies at the intersection of **Natural Language Processing (NLP)**, **Responsible AI**, and **Human-Centred Computing**.
 
 ---
 
@@ -16,9 +16,8 @@ I am a PhD student in the College of Information Sciences and Technology at [Pen
 
 My research aims to build tools and frameworks that promote transparency, fairness, and safety in AI systems. Specific areas of interest include:
 
-- **Privacy Policy Analysis**: Large-scale extraction and analysis of privacy practices across industry sectors using NLP and knowledge graph construction.
-- **Safety in Foundation Models and LLM Agents**: Investigating vulnerabilities in LLM-based agents (e.g., red teaming, alignment challenges), with an emphasis on reasoning reliability and human-aligned behavior.
-
+- **User Privacy Right Analysis**: Large-scale extraction and analysis of privacy practices in web or LLM-based apps to discover shortcomings in addressing users' rights in data collection and data sharing practices.
+- **Tool Use Safety in LLM Agents and LLMs**: Investigating failure modes and robustness challenges in tool-calling and execution behaviour of LLMs and agents. 
 ---
 
 ## 🧪 Ongoing Projects
@@ -29,7 +28,7 @@ My research aims to build tools and frameworks that promote transparency, fairne
 2. **Tool Selection Safety: Are LLMs Robust to Perturbations in Tool Descriptions?**  
    Evaluating how LLMs handle tool selection under adversarial prompt perturbations in in-context learning.
 
-3. **Defense Mechanisms for AgentPoison: Red-Teaming LLM Agents via Memory Poisoning**  
+3. **Defence Mechanisms for AgentPoison: Red-Teaming LLM Agents via Memory Poisoning**  
    Designing agents that detect, resist, and cleanse memory from red-teaming attacks involving poisoned prompts.
 
 ---
