@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in the College of Information Sciences and Technology at [[Pennsylvania State University](https://ist.psu.edu/](https://ist.psu.edu/directory/sxs7285), where I contribute to the [PrivaSeer Project](https://privaseer.ist.psu.edu/people) under the supervision of [Dr. Shomir Wilson](https://shomir.net/index.html) and [Dr. C. Lee Giles](https://clgiles.ist.psu.edu/). My research lies at the intersection of **Natural Language Processing (NLP)**, **Responsible AI**, and **Human-Centred Computing**.
+I am a PhD student in the College of Information Sciences and Technology at [Pennsylvania State University](https://ist.psu.edu/) (https://ist.psu.edu/directory/sxs7285), where I contribute to the [PrivaSeer Project](https://privaseer.ist.psu.edu/people) under the supervision of [Dr. Shomir Wilson](https://shomir.net/index.html) and [Dr. C. Lee Giles](https://clgiles.ist.psu.edu/). My research lies at the intersection of **Natural Language Processing (NLP)**, **Responsible AI**, and **Human-Centred Computing**.
 
 ---
 
@@ -44,14 +44,14 @@ My research aims to build tools and frameworks that promote transparency, fairne
 - *Generative Adversarial Learning with Negative Data Augmentation for Semi-Supervised Text Classification*  
   *FLAIRS-35, 2022*
 
-For a full list of publications and academic contributions, please refer to [my CV](link_to_your_CV.pdf) or [Google Scholar](#).
+For a full list of publications and academic contributions, please refer to [Google Scholar](https://scholar.google.com/citations?hl=en&user=uHhMvzgAAAAJ).
 
 
 ---
 
 ## 🤝 Academic Service
 
-- Reviewer, [5th Workshop on Trustworthy NLP (TrustNLP), NAACL 2025](https://trustnlp.github.io/)
+- Reviewer, [5th Workshop on Trustworthy NLP (TrustNLP), NAACL 2025](https://aclanthology.org/volumes/2025.trustnlp-main/)
 - Graduate Student Panelist, IST 197: Introduction to Research, Penn State
 
 ---
@@ -67,5 +67,5 @@ For a full list of publications and academic contributions, please refer to [my 
 ## 🛠 Skills
 
 - **Languages**: Python, Java, C++, SQL  
-- **Frameworks**: PyTorch, TensorFlow, Scikit-learn, LangChain, AutoGen  
+- **Frameworks**: PyTorch, LangChain, AutoGen, TensorFlow, Scikit-learn, 
 
