@@ -5,13 +5,21 @@ permalink: /portfolio/
 author_profile: true
 ---
 
-> Building sector-aware NLP systems, robust agentic workflows, and large-scale privacy-policy analytics.
+# **Shahriar Shayesteh**
+PhD Student, Pennsylvania State University | [cite_start]Responsible AI & Applied NLP [cite: 1, 2]
+
+[![GitHub](https://img.shields.io/badge/GitHub-shahriarshayesteh-black?logo=github)](https://github.com/shahriarshayesteh)
+[![HF Datasets](https://img.shields.io/badge/HuggingFace-SoAC_Corpus-orange?logo=huggingface)](https://huggingface.co/datasets/Shahriar/SoAC_Corpus)
+[![Google Scholar](https://img.shields.io/badge/Google-Scholar-blue?logo=googlescholar)](https://scholar.google.com) > 
+
+My work develops AI systems that reveal how personal data flows through digital services, spanning website privacy notices and the use of LLM-based agents that process user data and connect with third-party services. I also focus on safety and robustness in tool calling for LLMs and AI agents, addressing their susceptibility to unsafe or malicious tool use.
+---
 
 ## Highlights
-- **SoACer**: Sector-aware website classification with **LexRank** (graph-based summarization) + **LLaMA embeddings** → stronger sector signals from noisy webpages.
-- **SoAC Corpus**: Released dataset for multi-sector website analysis (research-ready splits and metadata).
-- **PrivaSeer**: Privacy-policy IR system at scale (indexing + visualization; supports sectoral analysis).
-- **Semi-supervised NLP**: GAN + **negative data augmentation** improved text classification with limited labels.
+- **SoACer**: Sector-based website classification tool that can classify websites into a set of predefined sectors at scale.
+- **SoAC Corpus**: Released dataset for sector-based website classification.
+- **PrivaSeer**: Contribution to PrivaSeer, Privacy-policy Search engine indexed around 3 million documents.
+- **Semi-supervised NLP**: Designing GAN + **negative data augmentation** as part of my Master's project to improve text classification with limited labels.
 
 ## Projects
 
