@@ -14,10 +14,11 @@ I am a PhD student in the College of Information Sciences and Technology at [Pen
 
 ## 🔍 Research Interests
 
-My research aims to build tools and frameworks that promote transparency, fairness, and safety in AI systems. Specific areas of interest include:
+My research aims to build tools and frameworks that promote transparency and safety for users in AI systems. Specific areas of interest include:
 
-- **User Privacy Right Analysis**: Large-scale extraction and analysis of privacy practices in web or LLM-based apps to discover shortcomings in addressing users' rights in data collection and data sharing practices.
-- **Tool Use Safety in LLM Agents and LLMs**: Investigating failure modes and robustness challenges in tool-calling and execution behaviour of LLMs and agents. 
+- **User Privacy Right Analysis**: I develop automated methods to audit the privacy policies and data-handling practices of websites and AI applications at scale. The goal is to uncover where these practices fall short of protecting user rights, holding technologies accountable to their promises.
+- **Tool Use Safety in LLM Agents and LLMs**:  As LLMs begin to take actions in the real world by using tools (like APIs), their potential for failure becomes more dangerous. I investigate the robustness of this tool-calling behavior, identifying critical failure points and developing safeguards to prevent unintended consequences.
+
 ---
 
 ## 🧪 Ongoing Projects
@@ -28,21 +29,22 @@ My research aims to build tools and frameworks that promote transparency, fairne
 2. **Tool Selection Safety: Are LLMs Robust to Perturbations in Tool Descriptions?**  
    Evaluating how LLMs handle tool selection under adversarial prompt perturbations in in-context learning.
 
-3. **Defence Mechanisms for AgentPoison: Red-Teaming LLM Agents via Memory Poisoning**  
-   Designing agents that detect, resist, and cleanse memory from red-teaming attacks involving poisoned prompts.
+3. **Large-Scale Exploration and Interpretation of Consumer-Oriented Legal Documents(COLDs)**  
+   Application of LLMs and AI-agentic frameworks to eliminate obstacles toward enhancing consumers’ understanding of many legal
+documents that they are expected to agree on.
 
 ---
 
 ## 📚 Selected Publications
 
 - *SoAC and SoACer: A Sector-Based Corpus and LLM-Based Framework for Sectoral Website Classification*  
-  *To appear in ACM DocEng 2025*
+  *Proceedings of the 25th ACM Symposium on Document Engineering (DocEng), 2025.*
 
 - *The PrivaSeer Project: Large-Scale Resources for Analysis of Privacy Policy Text*  
-  *To appear in USENIX SOUPS 2025*
+  *2025 Symposium on Usable Privacy and Security (SOUPS), USENIX.*
 
 - *Generative Adversarial Learning with Negative Data Augmentation for Semi-Supervised Text Classification*  
-  *FLAIRS-35, 2022*
+  *Proceedings of the 35th International Florida Artificial Intelligence Research Society Conference (FLAIRS-35), 2022.*
 
 For a full list of publications and academic contributions, please refer to [Google Scholar](https://scholar.google.com/citations?hl=en&user=uHhMvzgAAAAJ).
 
@@ -58,9 +60,9 @@ For a full list of publications and academic contributions, please refer to [Goo
 
 ## 💼 Past Affiliations
 
-- **NLP Lab – University of Ottawa**: Worked on mitigating social bias in semi-supervised classification.
+- **NLP Lab – University of Ottawa**: Worked on mitigating social bias in semi-supervised text classification.
 - **Canadian Heritage Research Internship**: Conducted qualitative analysis on challenges faced by Canadian artists during COVID-19.
-- **Mila – Responsible AI Summer School**: Explored policy and ethics in the design of AI systems.
+- **Mila – Responsible AI and Human Rights Summer School(2023)**: Analyzing Challenges and Potentials in Responsible AI design.
 
 ---
 
