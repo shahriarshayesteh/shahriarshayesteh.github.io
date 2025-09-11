@@ -8,6 +8,6 @@ redirect_from:
 ---
 {% include base_path %}
 
-[Curriculum Vitae [PDF]](http://shahriarshayesteh.github.io/files/Resume_2025__PrivaSeer_ (3).pdf)
+[Curriculum Vitae [PDF]](http://shahriarshayesteh.github.io/files/Resume_2025__PrivaSeer_ (6).pdf)
 
-<!-- <embed src="(http://shahriarshayesteh.github.io/files/Resume_2025__PrivaSeer_ (3).pdf" width="650" height="1800" type='application/pdf'> -->
+<!-- <embed src="(http://shahriarshayesteh.github.io/files/Resume_2025__PrivaSeer_ (6).pdf" width="650" height="1800" type='application/pdf'> -->
