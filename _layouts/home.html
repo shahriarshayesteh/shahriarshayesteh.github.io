@@ -1,0 +1,184 @@
+---
+layout: default
+---
+
+{% assign home = site.data.home %}
+
+<div id="top" class="home-page">
+  <section class="home-hero">
+    <div class="home-shell home-hero__grid">
+      <div class="home-hero__content reveal-on-scroll">
+        <p class="home-eyebrow">{{ home.hero.eyebrow }}</p>
+        <h1 class="home-title">{{ home.hero.title }}</h1>
+        <div class="home-copy">{{ home.hero.summary | markdownify }}</div>
+        <div class="home-link-row">
+          {% for link in home.hero.links %}
+            {% if link.url contains '://' or link.url contains 'mailto:' %}
+              {% assign href = link.url %}
+            {% else %}
+              {% assign href = link.url | relative_url %}
+            {% endif %}
+            <a class="home-button home-button--{{ link.style | default: 'secondary' }}" href="{{ href }}">{{ link.label }}</a>
+          {% endfor %}
+        </div>
+      </div>
+
+      <figure class="home-hero__portrait reveal-on-scroll">
+        <img src="{{ home.hero.portrait.src | relative_url }}" alt="{{ home.hero.portrait.alt }}">
+      </figure>
+    </div>
+
+    <div class="home-shell">
+      <dl class="home-stats">
+        {% for stat in home.hero.stats %}
+          <div class="home-stat reveal-on-scroll">
+            <dt>{{ stat.value }}</dt>
+            <dd>{{ stat.label }}</dd>
+          </div>
+        {% endfor %}
+      </dl>
+    </div>
+  </section>
+
+  <section id="research-agenda" class="home-section">
+    <div class="home-shell">
+      <div class="home-section__intro reveal-on-scroll">
+        <p class="home-kicker">{{ home.research_agenda.title }}</p>
+        <h2>{{ home.research_agenda.title }}</h2>
+        <div class="home-copy">{{ home.research_agenda.intro | markdownify }}</div>
+      </div>
+
+      <div class="home-card-grid">
+        {% for theme in home.research_agenda.themes %}
+          <article class="home-card reveal-on-scroll">
+            <p class="home-card__kicker">{{ theme.kicker }}</p>
+            <h3>{{ theme.title }}</h3>
+            <div class="home-copy">{{ theme.description | markdownify }}</div>
+            <ul class="home-tag-list">
+              {% for anchor in theme.anchors %}
+                <li>{{ anchor }}</li>
+              {% endfor %}
+            </ul>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section id="selected-work" class="home-section home-section--tint">
+    <div class="home-shell">
+      <div class="home-section__intro reveal-on-scroll">
+        <p class="home-kicker">{{ home.selected_work.title }}</p>
+        <h2>{{ home.selected_work.title }}</h2>
+        <div class="home-copy">{{ home.selected_work.intro | markdownify }}</div>
+      </div>
+
+      <div class="home-work-grid">
+        {% for item in home.selected_work.items %}
+          <article class="home-work-card reveal-on-scroll">
+            <div class="home-work-card__meta">
+              <p class="home-card__kicker">{{ item.eyebrow }}</p>
+              <p class="home-work-card__period">{{ item.period }}</p>
+            </div>
+            <h3>{{ item.title }}</h3>
+            <div class="home-copy">{{ item.description | markdownify }}</div>
+
+            {% if item.highlights %}
+              <ul class="home-bullet-list">
+                {% for highlight in item.highlights %}
+                  <li>{{ highlight }}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+
+            {% if item.links %}
+              <div class="home-link-row">
+                {% for link in item.links %}
+                  {% if link.url contains '://' or link.url contains 'mailto:' %}
+                    {% assign href = link.url %}
+                  {% else %}
+                    {% assign href = link.url | relative_url %}
+                  {% endif %}
+                  <a class="home-inline-link" href="{{ href }}">{{ link.label }}</a>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section id="publications" class="home-section">
+    <div class="home-shell">
+      <div class="home-section__intro reveal-on-scroll">
+        <p class="home-kicker">{{ home.selected_publications.title }}</p>
+        <h2>{{ home.selected_publications.title }}</h2>
+        <div class="home-copy">{{ home.selected_publications.intro | markdownify }}</div>
+      </div>
+
+      <div class="home-publication-list">
+        {% for item in home.selected_publications.items %}
+          <article class="home-publication reveal-on-scroll">
+            <p class="home-publication__meta">{{ item.venue }} - {{ item.year }}</p>
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.note }}</p>
+            {% if item.links %}
+              <div class="home-link-row">
+                {% for link in item.links %}
+                  <a class="home-inline-link" href="{{ link.url }}">{{ link.label }}</a>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="home-section home-section--tint">
+    <div class="home-shell">
+      <div class="home-section__intro reveal-on-scroll">
+        <p class="home-kicker">{{ home.experience_service.title }}</p>
+        <h2>{{ home.experience_service.title }}</h2>
+      </div>
+
+      <div class="home-group-grid">
+        {% for group in home.experience_service.groups %}
+          <article class="home-group-card reveal-on-scroll">
+            <h3>{{ group.title }}</h3>
+            <div class="home-group-list">
+              {% for item in group.items %}
+                <div class="home-group-item">
+                  <h4>{{ item.title }}</h4>
+                  <p class="home-group-item__meta">{{ item.meta }}</p>
+                  <p>{{ item.description }}</p>
+                </div>
+              {% endfor %}
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="home-section home-section--contact">
+    <div class="home-shell">
+      <div class="home-contact-card reveal-on-scroll">
+        <p class="home-kicker">{{ home.contact.title }}</p>
+        <h2>{{ home.contact.title }}</h2>
+        <div class="home-copy">{{ home.contact.body | markdownify }}</div>
+        <div class="home-link-row">
+          {% for link in home.contact.links %}
+            {% if link.url contains '://' or link.url contains 'mailto:' %}
+              {% assign href = link.url %}
+            {% else %}
+              {% assign href = link.url | relative_url %}
+            {% endif %}
+            <a class="home-button home-button--secondary" href="{{ href }}">{{ link.label }}</a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

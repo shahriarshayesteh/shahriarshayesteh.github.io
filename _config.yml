@@ -10,10 +10,10 @@ locale                   : "en-US"
 title                    : "Shahriar Shayesteh"
 title_separator          : "-"
 name                     : &name "Shahriar Shayesteh"
-description              : &description
-url                      : #https://mukundsrinath.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "Research on privacy norms, sectoral web analysis, and agentic AI disclosure."
+url                      : "https://shahriarshayesteh.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "https://github.com/shahriarshayesteh"
+repository               : "shahriarshayesteh/shahriarshayesteh.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -81,15 +81,15 @@ analytics:
 # Site Author
 author:
   name             : "Shahriar Shayesteh"
-  avatar           : "shahriar (1).jpeg"
-  bio              :
-  location         : #"University Park, PA"
-  employer         :
+  avatar           : "home/shahriar-portrait-2026.png"
+  bio              : "PhD student in Informatics studying privacy norms, web transparency, and agentic AI disclosure."
+  location         : "State College, PA"
+  employer         : "Pennsylvania State University"
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=uHhMvzgAAAAJ"
-  email            : "sxs7285@psu.edu"
+  email            : "shahriar.shayesteh92@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
+  uri              : "https://shahriarshayesteh.github.io"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -310,6 +310,4 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-
 

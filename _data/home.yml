@@ -1,0 +1,186 @@
+hero:
+  eyebrow: "PhD Student in Informatics - Pennsylvania State University"
+  title: "Studying how privacy norms and disclosure behavior change from the conventional web to agentic AI systems."
+  summary: >
+    I study what happens to user privacy when digital services move from static, policy-governed websites to environments where AI agents act on a user's behalf. My work combines large-scale web analysis, privacy policy mining, and behavioral evaluation of LLM tool use.
+  links:
+    - label: "View CV"
+      url: "/cv/"
+      style: "primary"
+    - label: "Google Scholar"
+      url: "https://scholar.google.com/citations?hl=en&user=uHhMvzgAAAAJ"
+      style: "secondary"
+    - label: "Email"
+      url: "mailto:shahriar.shayesteh92@gmail.com"
+      style: "secondary"
+  stats:
+    - value: "3M+"
+      label: "privacy policies indexed through PrivaSeer"
+    - value: "195,495"
+      label: "websites labeled in the SoAC corpus"
+    - value: "59,590"
+      label: "sector-tagged privacy policies analyzed longitudinally"
+  portrait:
+    src: "/images/home/shahriar-portrait-2026.png"
+    alt: "Portrait of Shahriar Shayesteh wearing glasses and a purple shirt."
+
+research_agenda:
+  title: "Research Agenda"
+  intro: >
+    My current agenda asks whether privacy expectations still remain context-sensitive once AI systems mediate the interaction. I approach that question through three connected themes.
+  themes:
+    - kicker: "Theme 1"
+      title: "Sectoral web classification and datasets"
+      description: >
+        I build datasets and models that recover sector context from web content so downstream privacy analysis can be grounded in meaningful service categories rather than flat web snapshots.
+      anchors:
+        - "SoAC corpus"
+        - "SoACer classification pipeline"
+        - "Web-scale labeling"
+    - kicker: "Theme 2"
+      title: "Sectoral privacy norms in the conventional web"
+      description: >
+        I study how privacy disclosures vary across industries, regulations, and business models, with particular attention to where disclosure quality improves, stagnates, or becomes vague at scale.
+      anchors:
+        - "PrivaSeer"
+        - "Longitudinal policy analysis"
+        - "Contextual integrity framing"
+    - kicker: "Theme 3"
+      title: "Agentic privacy disclosure and tool-use safety"
+      description: >
+        I examine whether LLM agents overshare because of model behavior alone or because tool schemas and interface design fail to constrain disclosure at runtime.
+      anchors:
+        - "Runtime tool-call disclosure"
+        - "Schema permissiveness"
+        - "Privacy-aware agent design"
+
+selected_work:
+  title: "Selected Work"
+  intro: >
+    These projects trace the arc from web-scale sector discovery to privacy disclosure analysis and, now, agentic systems that act on users' behalf.
+  items:
+    - eyebrow: "Sectoral web classification"
+      period: "2025"
+      title: "SoACer and the SoAC Corpus"
+      description: >
+        A dataset and LLM-assisted framework for classifying websites into real-world sectors at scale, creating the structural foundation needed for sector-aware privacy analysis.
+      highlights:
+        - "Combined summarization, embeddings, and lightweight classification for heterogeneous website text."
+        - "Released a corpus of 195,495 websites across 10 sectors for governance and auditing research."
+        - "Made sector context usable for downstream privacy-policy studies."
+      links:
+        - label: "Paper"
+          url: "https://dl.acm.org/doi/abs/10.1145/3704268.3742691"
+        - label: "Code"
+          url: "https://github.com/shahriarshayesteh/SoAC_DocEng2025"
+        - label: "Dataset"
+          url: "https://huggingface.co/datasets/Shahriar/SoAC_Corpus"
+    - eyebrow: "Large-scale privacy disclosure measurement"
+      period: "2025-ongoing"
+      title: "PrivaSeer and sectoral privacy analysis"
+      description: >
+        Research and infrastructure for collecting, indexing, and analyzing privacy policies at scale, with a focus on comparing disclosure patterns across sectors and over time.
+      highlights:
+        - "Contributed to PrivaSeer's large-scale collection and analysis pipeline over millions of privacy policies."
+        - "Built sector-aware analyses over 59,590 policies to study where disclosures converge, diverge, or remain opaque."
+        - "Brings empirical evidence to questions of governance, transparency, and data-handling norms."
+      links:
+        - label: "SOUPS paper"
+          url: "https://shomir.net/pdf/publications/privaseer_soups_2025_paper.pdf"
+        - label: "Project site"
+          url: "https://privaseer.ist.psu.edu/"
+    - eyebrow: "Dissertation direction"
+      period: "2026"
+      title: "Agentic privacy disclosure"
+      description: >
+        A behavioral research program on how AI agents disclose user information during tool use, and whether sector context still matters when services are accessed through agent-mediated interfaces.
+      highlights:
+        - "Frames runtime tool calls as the critical moment of privacy disclosure in agentic systems."
+        - "Studies contextual flattening: whether agents treat distinct service contexts too similarly."
+        - "Tests how permissive tool schemas can invite oversharing even before model alignment enters the picture."
+    - eyebrow: "Earlier foundation"
+      period: "2022"
+      title: "Negative data augmentation for semi-supervised NLP"
+      description: >
+        My master's work explored reliability and fairness in low-label text classification through GAN-based training with negative data augmentation.
+      highlights:
+        - "Improved semi-supervised text classification under limited labeled data."
+        - "Grounded later interests in robustness, failure modes, and trustworthy NLP."
+      links:
+        - label: "Paper"
+          url: "https://journals.flvc.org/FLAIRS/article/view/130722/133883"
+        - label: "Thesis"
+          url: "https://ruor.uottawa.ca/server/api/core/bitstreams/a7ff8d44-c1f5-45fd-ac20-906571cc3ca6/content"
+
+selected_publications:
+  title: "Selected Publications"
+  intro: >
+    A few publications that anchor the current direction of the site. For a fuller list, see Google Scholar or the CV.
+  items:
+    - year: "2025"
+      venue: "ACM DocEng"
+      title: "SoACer: Sector-Based Corpus and LLM-Based Framework for Sectoral Website Classification"
+      note: "Builds a dataset and classification pipeline for sector-aware web analysis."
+      links:
+        - label: "Paper"
+          url: "https://dl.acm.org/doi/abs/10.1145/3704268.3742691"
+    - year: "2025"
+      venue: "USENIX SOUPS"
+      title: "The PrivaSeer Project: Large-Scale Resources for Analysis of Privacy Policy Text"
+      note: "Provides infrastructure for large-scale transparency and privacy-policy analysis."
+      links:
+        - label: "Paper"
+          url: "https://shomir.net/pdf/publications/privaseer_soups_2025_paper.pdf"
+    - year: "2022"
+      venue: "FLAIRS-35"
+      title: "Generative Adversarial Learning with Negative Data Augmentation for Semi-Supervised Text Classification"
+      note: "Earlier work on robust NLP under low-label conditions."
+      links:
+        - label: "Paper"
+          url: "https://journals.flvc.org/FLAIRS/article/view/130722/133883"
+        - label: "Thesis"
+          url: "https://ruor.uottawa.ca/server/api/core/bitstreams/a7ff8d44-c1f5-45fd-ac20-906571cc3ca6/content"
+
+experience_service:
+  title: "Experience and Service"
+  groups:
+    - title: "Current and recent roles"
+      items:
+        - title: "Graduate Research Assistant"
+          meta: "Human Language Technologies Lab, Pennsylvania State University - Fall 2023-Present"
+          description: "Work on PrivaSeer, sector-aware privacy analysis, and large-scale empirical studies of disclosure behavior."
+        - title: "Research Intern"
+          meta: "Department of Canadian Heritage - Feb 2022-Apr 2022"
+          description: "Applied NLP methods to qualitative corpora and translated findings into policy-relevant insights for public stakeholders."
+        - title: "Graduate Research Assistant"
+          meta: "NLP Laboratory, University of Ottawa - Jan 2021-Jun 2023"
+          description: "Studied fairness and robustness in semi-supervised text classification and built the work that became my master's thesis."
+    - title: "Education and service"
+      items:
+        - title: "PhD in Informatics"
+          meta: "Pennsylvania State University - Expected 2027"
+          description: "Dissertation on the evolution of sectoral privacy norms from the conventional web to the agentic web."
+        - title: "Reviewer"
+          meta: "TrustNLP at NAACL 2025"
+          description: "Reviewed work on trustworthy NLP and responsible model behavior."
+        - title: "Graduate Student Panelist"
+          meta: "IST 197: Introduction to Research"
+          description: "Spoke with students about research careers and graduate study."
+
+contact:
+  title: "Contact"
+  body: >
+    I am always happy to hear from researchers, students, and collaborators working on privacy, AI governance, responsible NLP, or agentic systems. If you are building related datasets, evaluations, or public-interest tools, I would be glad to connect.
+  links:
+    - label: "Email"
+      url: "mailto:shahriar.shayesteh92@gmail.com"
+    - label: "Google Scholar"
+      url: "https://scholar.google.com/citations?hl=en&user=uHhMvzgAAAAJ"
+    - label: "GitHub"
+      url: "https://github.com/shahriarshayesteh"
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/shahriar-shayesteh"
+    - label: "CV PDF"
+      url: "/files/Research_Scientists_Resume_Winter2026.pdf"
+    - label: "Hugging Face"
+      url: "https://huggingface.co/datasets/Shahriar/SoAC_Corpus"

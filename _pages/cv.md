@@ -1,13 +1,13 @@
 ---
-layout: archive
-title: "Shahriar Shayesteh"
+layout: single
+title: "Curriculum Vitae"
 permalink: /cv/
-author_profile: true
+author_profile: false
 redirect_from:
   - /cv
 ---
 {% include base_path %}
 
-[Curriculum Vitae [PDF]](http://shahriarshayesteh.github.io/files/Research_Scientists_Resume_Winter2026.pdf)
+The latest version of my CV is available as a PDF below.
 
-<!-- <embed src="(http://shahriarshayesteh.github.io/files/Research_Scientists_Resume_Winter2026.pdf" width="650" height="1800" type='application/pdf'> -->
+[Open CV PDF]({{ "/files/Research_Scientists_Resume_Winter2026.pdf" | relative_url }})

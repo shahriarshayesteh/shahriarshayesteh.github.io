@@ -1,20 +1,14 @@
 # main links links
 main:
-  # - title: "Publications"
-  #   url: /publications/
-
-  - title: "Portfolio"
-    url: /portfolio/  
-
-  - title: "Teaching Assistantship"
-    url: /teaching/    
-    
-        
-  # - title: "Blog Posts"
-  #   url: /year-archive/
-    
+  - title: "Overview"
+    url: /#top
+  - title: "Research Agenda"
+    url: /#research-agenda
+  - title: "Selected Work"
+    url: /#selected-work
+  - title: "Publications"
+    url: /#publications
+  - title: "Contact"
+    url: /#contact
   - title: "CV"
     url: /cv/
-    
-  # - title: "Guide"
-  #   url: /markdown/
