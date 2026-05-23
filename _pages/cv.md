@@ -10,4 +10,4 @@ redirect_from:
 
 The latest version of my CV is available as a PDF below.
 
-[Open CV PDF]({{ "/files/Research_Scientists_Resume_Winter2026.pdf" | relative_url }})
+[Open CV PDF]({{ "/files/Research_Scientists_Resume_Spring2026.pdf" | relative_url }})
