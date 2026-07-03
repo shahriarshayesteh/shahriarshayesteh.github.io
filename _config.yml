@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Shahriar Shayesteh"
   avatar           : "home/shahriar-portrait-2026.png"
-  bio              : "PhD student in Informatics studying privacy norms, web transparency, and agentic AI disclosure."
+  bio              : "PhD candidate in Informatics studying privacy norms, web transparency, and agentic AI disclosure."
   location         : "State College, PA"
   employer         : "Pennsylvania State University"
   pubmed           :
@@ -310,4 +310,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-

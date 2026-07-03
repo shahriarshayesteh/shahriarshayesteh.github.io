@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 # **Shahriar Shayesteh**
-PhD Student, Pennsylvania State University | [cite_start]Responsible AI & Applied NLP [cite: 1, 2]
+PhD Candidate, Pennsylvania State University | [cite_start]Responsible AI & Applied NLP [cite: 1, 2]
 
 [![GitHub](https://img.shields.io/badge/GitHub-shahriarshayesteh-black?logo=github)](https://github.com/shahriarshayesteh)
 [![HF Datasets](https://img.shields.io/badge/HuggingFace-SoAC_Corpus-orange?logo=huggingface)](https://huggingface.co/datasets/Shahriar/SoAC_Corpus)

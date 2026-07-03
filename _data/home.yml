@@ -1,8 +1,8 @@
 hero:
-  eyebrow: "PhD Student in Informatics - Pennsylvania State University"
+  eyebrow: "PhD Candidate in Informatics - Pennsylvania State University"
   title: "Studying how privacy norms evolve from the conventional web to agentic AI"
   summary: >
-    PhD student in Informatics at Penn State studying privacy policy analysis, sectoral web classification, and disclosure behavior in AI agents.
+    PhD candidate in Informatics at Penn State studying privacy policy analysis, sectoral web classification, and disclosure behavior in AI agents.
   links:
     - label: "View CV"
       url: "/cv/"
@@ -23,7 +23,7 @@ overview:
     I study privacy disclosures in two settings: the conventional web and emerging agentic systems. The site centers on the datasets, analyses, and evaluation work that connect those settings.
   cards:
     - label: "Who I am"
-      title: "PhD student in Informatics"
+      title: "PhD candidate in Informatics"
       description: >
         At Pennsylvania State University, I work on privacy, web-scale text analysis, and responsible AI questions.
     - label: "What I study"
