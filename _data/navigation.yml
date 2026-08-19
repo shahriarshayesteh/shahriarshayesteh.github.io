@@ -1,13 +1,11 @@
 # main links links
 main:
-  - title: "Overview"
-    url: /#overview
-  - title: "Research Map"
-    url: /#research-map
-  - title: "Selected Work"
-    url: /#selected-work
+  - title: "Research"
+    url: /#research
   - title: "Publications"
     url: /#publications
+  - title: "Projects"
+    url: /#work
   - title: "Contact"
     url: /#contact
   - title: "CV"

@@ -2,224 +2,224 @@
 layout: default
 ---
 
-{% assign home = site.data.home %}
+<main id="top" class="academic-home">
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Shahriar Shayesteh, home">
+      <span class="wordmark-mark">SS</span>
+      <span>
+        <strong>Shahriar Shayesteh</strong>
+        <small>AI &amp; Privacy Researcher</small>
+      </span>
+    </a>
 
-<div id="top" class="home-page">
-  <section class="home-hero">
-    <div class="home-shell home-hero__grid">
-      <div class="home-hero__content reveal-on-scroll">
-        <p class="home-eyebrow">{{ home.hero.eyebrow }}</p>
-        <h1 class="home-title">{{ home.hero.title }}</h1>
-        <div class="home-copy">{{ home.hero.summary | markdownify }}</div>
-        <div class="home-link-row">
-          {% for link in home.hero.links %}
-            {% if link.url contains '://' or link.url contains 'mailto:' %}
-              {% assign href = link.url %}
-            {% else %}
-              {% assign href = link.url | relative_url %}
-            {% endif %}
-            <a class="home-button home-button--{{ link.style | default: 'secondary' }}" href="{{ href }}">{{ link.label }}</a>
-          {% endfor %}
-        </div>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#work">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a class="nav-cta" href="{{ '/files/Research_Scientists_Resume_Winter2026.pdf' | relative_url }}" target="_blank" rel="noreferrer">
+      CV <span aria-hidden="true">↗</span>
+    </a>
+  </header>
+
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> PhD Candidate in Informatics · Penn State</p>
+      <h1>I study privacy at the moment <em>AI systems act.</em></h1>
+      <p class="hero-deck">I build datasets, measurement methods, and evaluations for privacy-aware AI—from web-scale policy analysis to the tool calls made by AI agents.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#research">Explore my research <span aria-hidden="true">↓</span></a>
+        <a class="button button-quiet" href="https://scholar.google.com/citations?hl=en&amp;user=uHhMvzgAAAAJ" target="_blank" rel="noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
       </div>
+      <div class="availability">
+        <span class="availability-label">Currently</span>
+        <span>Open to research collaborations and applied AI conversations</span>
+      </div>
+    </div>
 
-      <figure class="home-hero__portrait reveal-on-scroll">
-        <img src="{{ home.hero.portrait.src | relative_url }}" alt="{{ home.hero.portrait.alt }}">
-      </figure>
+    <div class="portrait-wrap">
+      <div class="portrait-frame">
+        <img src="{{ '/images/home/shahriar-portrait-2026.png' | relative_url }}" alt="Shahriar Shayesteh">
+        <span class="portrait-grid" aria-hidden="true"></span>
+      </div>
+      <div class="portrait-caption">
+        <span>Human Language Technologies Lab</span>
+        <span>State College, PA</span>
+      </div>
     </div>
   </section>
 
-  <section id="overview" class="home-section home-section--overview">
-    <div class="home-shell">
-      <div class="home-section__intro reveal-on-scroll">
-        <p class="home-kicker">{{ home.overview.title }}</p>
-        <h2>{{ home.overview.title }}</h2>
-        <div class="home-copy">{{ home.overview.intro | markdownify }}</div>
+  <section class="section research-section" id="research">
+    <div class="section-heading">
+      <p class="section-kicker">Research interests</p>
+      <h2>Privacy across the web and AI systems.</h2>
+      <p>My work connects two worlds: what organizations say about data use, and what AI systems actually reveal when acting for people.</p>
+    </div>
+
+    <div class="research-list">
+      <article class="research-card blue">
+        <div class="research-number">01</div>
+        <div class="research-body">
+          <p class="card-label">Agentic AI privacy</p>
+          <h3>Privacy at the tool interface</h3>
+          <p class="card-copy">I study the information AI agents disclose when they call tools, and how schema design can invite or prevent oversharing.</p>
+          <p class="card-proof">2,344 tool schemas audited · PrivateNLP @ ACL 2026</p>
+        </div>
+      </article>
+
+      <article class="research-card orange">
+        <div class="research-number">02</div>
+        <div class="research-body">
+          <p class="card-label">Web-scale measurement</p>
+          <h3>Privacy norms across sectors</h3>
+          <p class="card-copy">I build longitudinal measurements of how privacy disclosures differ across industries, services, and time.</p>
+          <p class="card-proof">59,590 matched policies · Longitudinal study</p>
+        </div>
+      </article>
+
+      <article class="research-card green">
+        <div class="research-number">03</div>
+        <div class="research-body">
+          <p class="card-label">NLP systems &amp; datasets</p>
+          <h3>Context-aware web classification</h3>
+          <p class="card-copy">I develop datasets and language-model pipelines that recover service context from noisy, heterogeneous websites.</p>
+          <p class="card-proof">195,495 websites · ACM DocEng 2025</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="publications-section" id="publications">
+    <div class="publications-inner">
+      <div class="publications-heading">
+        <p class="section-kicker">Publications</p>
+        <h2>Selected publications.</h2>
+        <a href="https://scholar.google.com/citations?hl=en&amp;user=uHhMvzgAAAAJ" target="_blank" rel="noreferrer">All publications on Google Scholar <span aria-hidden="true">↗</span></a>
       </div>
 
-      <div class="home-overview-grid">
-        {% for card in home.overview.cards %}
-          <article class="home-overview-card reveal-on-scroll">
-            <p class="home-card__kicker">{{ card.label }}</p>
-            <h3>{{ card.title }}</h3>
-            <div class="home-copy">{{ card.description | markdownify }}</div>
-          </article>
-        {% endfor %}
-      </div>
+      <div class="publication-list">
+        <article class="publication-row">
+          <div class="publication-meta"><strong>2026</strong><span>PrivateNLP @ ACL</span></div>
+          <div><h3>From Conventional Web Privacy to Agentic Disclosure: How Tool Schemas May Invite LLM Oversharing</h3><p>Position paper · Agentic AI privacy</p></div>
+        </article>
 
-      <dl class="home-stats home-stats--overview">
-        {% for stat in home.overview.stats %}
-          <div class="home-stat reveal-on-scroll">
-            <dt>{{ stat.value }}</dt>
-            <dd>{{ stat.label }}</dd>
+        <article class="publication-row">
+          <div class="publication-meta"><strong>2025</strong><span>ACM DocEng</span></div>
+          <div><h3>SoACer: Sector-Based Corpus and LLM-Based Framework for Sectoral Website Classification</h3><p>Dataset and method · Web classification</p></div>
+          <a class="publication-link" href="https://dl.acm.org/doi/abs/10.1145/3704268.3742691" target="_blank" rel="noreferrer" aria-label="Open SoACer paper">↗</a>
+        </article>
+
+        <article class="publication-row">
+          <div class="publication-meta"><strong>2025</strong><span>USENIX SOUPS</span></div>
+          <div><h3>The PrivaSeer Project: Large-Scale Resources for Analysis of Privacy Policy Text</h3><p>Research infrastructure · Privacy NLP</p></div>
+          <a class="publication-link" href="https://shomir.net/pdf/publications/privaseer_soups_2025_paper.pdf" target="_blank" rel="noreferrer" aria-label="Open PrivaSeer paper">↗</a>
+        </article>
+
+        <article class="publication-row">
+          <div class="publication-meta"><strong>2022</strong><span>FLAIRS-35</span></div>
+          <div><h3>Generative Adversarial Learning with Negative Data Augmentation for Semi-Supervised Text Classification</h3><p>Method · Low-resource NLP</p></div>
+          <a class="publication-link" href="https://journals.flvc.org/FLAIRS/article/view/130722/133883" target="_blank" rel="noreferrer" aria-label="Open generative adversarial learning paper">↗</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section academic-work" id="work">
+    <div class="section-heading academic-work-heading">
+      <p class="section-kicker">Selected research</p>
+      <h2>Current and recent projects.</h2>
+      <p>Research spanning agentic AI privacy, privacy-policy analysis, and sector-aware natural language processing.</p>
+    </div>
+
+    <div class="academic-project-list">
+      <article class="academic-project">
+        <div class="academic-project-meta"><span>2026</span><strong>Agentic AI privacy</strong></div>
+        <div class="academic-project-main">
+          <h3>From Conventional Web Privacy to Agentic Disclosure</h3>
+          <p class="project-venue">PrivateNLP @ ACL 2026</p>
+          <p>Studies privacy risk at the runtime tool call—the moment an AI agent turns user context into API arguments—and examines how tool-schema design may invite oversharing.</p>
+        </div>
+      </article>
+
+      <article class="academic-project">
+        <div class="academic-project-meta"><span>2025</span><strong>Sector-aware NLP</strong></div>
+        <div class="academic-project-main">
+          <h3>SoACer and the SoAC Corpus</h3>
+          <p class="project-venue">ACM DocEng 2025</p>
+          <p>Introduces a 195,495-website corpus and an LLM-based pipeline for recovering service-sector context from heterogeneous website text.</p>
+          <div class="academic-links">
+            <a href="https://dl.acm.org/doi/abs/10.1145/3704268.3742691" target="_blank" rel="noreferrer">Paper <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/shahriarshayesteh/SoAC_DocEng2025" target="_blank" rel="noreferrer">Code <span aria-hidden="true">↗</span></a>
+            <a href="https://huggingface.co/datasets/Shahriar/SoAC_Corpus" target="_blank" rel="noreferrer">Dataset <span aria-hidden="true">↗</span></a>
           </div>
-        {% endfor %}
-      </dl>
-    </div>
-  </section>
-
-  <section id="research-map" class="home-section">
-    <div class="home-shell">
-      <div class="home-section__intro reveal-on-scroll">
-        <p class="home-kicker">{{ home.research_map.title }}</p>
-        <h2>{{ home.research_map.title }}</h2>
-        <div class="home-copy">{{ home.research_map.intro | markdownify }}</div>
-      </div>
-
-      <div class="home-card-grid">
-        {% for area in home.research_map.areas %}
-          <article class="home-card reveal-on-scroll">
-            <h3>{{ area.title }}</h3>
-            <div class="home-copy">{{ area.description | markdownify }}</div>
-          </article>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-
-  <section id="selected-work" class="home-section home-section--tint">
-    <div class="home-shell">
-      <div class="home-section__intro reveal-on-scroll">
-        <p class="home-kicker">{{ home.selected_work.title }}</p>
-        <h2>{{ home.selected_work.title }}</h2>
-        <div class="home-copy">{{ home.selected_work.intro | markdownify }}</div>
-      </div>
-
-      <div class="home-work-grid">
-        {% for item in home.selected_work.items %}
-          <article class="home-work-card reveal-on-scroll">
-            <div class="home-work-card__meta">
-              <p class="home-card__kicker">{{ item.eyebrow }}</p>
-              <p class="home-work-card__period">{{ item.period }}</p>
-            </div>
-            <h3>{{ item.title }}</h3>
-            <div class="home-detail-list">
-              <div class="home-detail-item">
-                <p class="home-detail-label">Problem</p>
-                <p>{{ item.problem }}</p>
-              </div>
-              <div class="home-detail-item">
-                <p class="home-detail-label">Contribution</p>
-                <p>{{ item.contribution }}</p>
-              </div>
-              <div class="home-detail-item">
-                <p class="home-detail-label">Why it matters</p>
-                <p>{{ item.impact }}</p>
-              </div>
-            </div>
-
-            {% if item.links %}
-              <div class="home-link-row">
-                {% for link in item.links %}
-                  {% if link.url contains '://' or link.url contains 'mailto:' %}
-                    {% assign href = link.url %}
-                  {% else %}
-                    {% assign href = link.url | relative_url %}
-                  {% endif %}
-                  <a class="home-inline-link" href="{{ href }}">{{ link.label }}</a>
-                {% endfor %}
-              </div>
-            {% endif %}
-          </article>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-
-  <section id="publications" class="home-section">
-    <div class="home-shell">
-      <div class="home-section__intro home-section__intro--with-actions reveal-on-scroll">
-        <div class="home-section__intro-copy">
-          <p class="home-kicker">{{ home.selected_publications.title }}</p>
-          <h2>{{ home.selected_publications.title }}</h2>
-          <div class="home-copy">{{ home.selected_publications.intro | markdownify }}</div>
         </div>
-        {% if home.selected_publications.links %}
-          <div class="home-link-row home-link-row--compact">
-            {% for link in home.selected_publications.links %}
-              {% if link.url contains '://' or link.url contains 'mailto:' %}
-                {% assign href = link.url %}
-              {% else %}
-                {% assign href = link.url | relative_url %}
-              {% endif %}
-              <a class="home-inline-link" href="{{ href }}">{{ link.label }}</a>
-            {% endfor %}
+      </article>
+
+      <article class="academic-project">
+        <div class="academic-project-meta"><span>2025</span><strong>Privacy NLP</strong></div>
+        <div class="academic-project-main">
+          <h3>The PrivaSeer Project</h3>
+          <p class="project-venue">USENIX SOUPS 2025</p>
+          <p>Develops large-scale resources for studying privacy-policy text, disclosure patterns, and change over time.</p>
+          <div class="academic-links">
+            <a href="https://shomir.net/pdf/publications/privaseer_soups_2025_paper.pdf" target="_blank" rel="noreferrer">Paper <span aria-hidden="true">↗</span></a>
+            <a href="https://privaseer.ist.psu.edu/" target="_blank" rel="noreferrer">Project website <span aria-hidden="true">↗</span></a>
           </div>
-        {% endif %}
-      </div>
-
-      <div class="home-publication-list">
-        {% for item in home.selected_publications.items %}
-          <article class="home-publication reveal-on-scroll">
-            <div class="home-publication__year">{{ item.year }}</div>
-            <div class="home-publication__body">
-              <p class="home-publication__meta">{{ item.venue }}</p>
-              <h3>{{ item.title }}</h3>
-              <p>{{ item.note }}</p>
-            </div>
-            {% if item.links %}
-              <div class="home-link-row home-link-row--compact">
-                {% for link in item.links %}
-                  <a class="home-inline-link" href="{{ link.url }}">{{ link.label }}</a>
-                {% endfor %}
-              </div>
-            {% endif %}
-          </article>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-
-  <section class="home-section home-section--tint">
-    <div class="home-shell">
-      <div class="home-section__intro reveal-on-scroll">
-        <p class="home-kicker">{{ home.experience_service.title }}</p>
-        <h2>{{ home.experience_service.title }}</h2>
-      </div>
-
-      <div class="home-group-grid">
-        {% for group in home.experience_service.groups %}
-          <article class="home-group-card reveal-on-scroll">
-            <h3>{{ group.title }}</h3>
-            <div class="home-group-list">
-              {% for item in group.items %}
-                <div class="home-group-item">
-                  <h4>{{ item.title }}</h4>
-                  <p class="home-group-item__meta">{{ item.meta }}</p>
-                  <p>{{ item.description }}</p>
-                </div>
-              {% endfor %}
-            </div>
-          </article>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-
-  <section id="contact" class="home-section home-section--contact">
-    <div class="home-shell">
-      <div class="home-contact-card reveal-on-scroll">
-        <p class="home-kicker">{{ home.contact.title }}</p>
-        <h2>{{ home.contact.title }}</h2>
-        <div class="home-copy">{{ home.contact.body | markdownify }}</div>
-        {% if home.contact.prompts %}
-          <ul class="home-prompt-list">
-            {% for prompt in home.contact.prompts %}
-              <li class="home-prompt">{{ prompt }}</li>
-            {% endfor %}
-          </ul>
-        {% endif %}
-        <div class="home-link-row">
-          {% for link in home.contact.links %}
-            {% if link.url contains '://' or link.url contains 'mailto:' %}
-              {% assign href = link.url %}
-            {% else %}
-              {% assign href = link.url | relative_url %}
-            {% endif %}
-            <a class="home-button home-button--secondary" href="{{ href }}">{{ link.label }}</a>
-          {% endfor %}
         </div>
-      </div>
+      </article>
     </div>
   </section>
-</div>
+
+  <section class="section trajectory-section" aria-labelledby="trajectory-title">
+    <div class="trajectory-intro">
+      <p class="section-kicker">Experience</p>
+      <h2 id="trajectory-title">Academic and research experience.</h2>
+    </div>
+
+    <div class="timeline">
+      <article>
+        <div><strong>2023—Now</strong><span>Penn State</span></div>
+        <div><h3>PhD Candidate &amp; Graduate Research Assistant</h3><p>Human Language Technologies Lab · privacy, responsible AI, and web-scale NLP.</p></div>
+      </article>
+      <article>
+        <div><strong>2022</strong><span>Government of Canada</span></div>
+        <div><h3>Research Intern</h3><p>Applied NLP to qualitative corpora and translated findings for public-sector stakeholders.</p></div>
+      </article>
+      <article>
+        <div><strong>2021—2023</strong><span>University of Ottawa</span></div>
+        <div><h3>Graduate Research Assistant</h3><p>Fairness and robustness in semi-supervised text classification.</p></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <div class="contact-copy">
+      <p class="section-kicker light">Let's connect</p>
+      <h2>Interested in working together?</h2>
+      <p>I'm glad to hear from researchers, builders, and teams working on privacy-aware agents, trustworthy NLP, evaluation, or empirical AI governance.</p>
+      <a class="button contact-button" href="mailto:shahriar.shayesteh92@gmail.com">Email Shahriar <span aria-hidden="true">↗</span></a>
+    </div>
+
+    <div class="contact-paths">
+      <p>Good reasons to reach out</p>
+      <ul>
+        <li><span>01</span>Collaborate on agent and tool-use evaluations</li>
+        <li><span>02</span>Build on a dataset or research pipeline</li>
+        <li><span>03</span>Discuss research or applied AI opportunities</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-name"><strong>Shahriar Shayesteh</strong><span>AI &amp; Privacy Researcher · Penn State</span></div>
+    <div class="footer-links">
+      <a href="https://scholar.google.com/citations?hl=en&amp;user=uHhMvzgAAAAJ" target="_blank" rel="noreferrer">Scholar <span aria-hidden="true">↗</span></a>
+      <a href="https://github.com/shahriarshayesteh" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      <a href="https://www.linkedin.com/in/shahriar-shayesteh" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+      <a href="{{ '/files/Research_Scientists_Resume_Winter2026.pdf' | relative_url }}" target="_blank" rel="noreferrer">CV <span aria-hidden="true">↗</span></a>
+    </div>
+    <p>© 2026 Shahriar Shayesteh</p>
+  </footer>
+</main>
