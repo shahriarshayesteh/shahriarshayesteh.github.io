@@ -2,221 +2,148 @@
 layout: default
 ---
 
-<main id="top" class="academic-home">
-  <header class="site-header">
-    <a class="wordmark" href="#top" aria-label="Shahriar Shayesteh, home">
-      <span class="wordmark-mark">SS</span>
-      <span>
-        <strong>Shahriar Shayesteh</strong>
-        <small>AI &amp; Privacy Researcher</small>
-      </span>
-    </a>
-
-    <nav class="desktop-nav" aria-label="Main navigation">
-      <a href="#research">Research</a>
-      <a href="#publications">Publications</a>
-      <a href="#work">Projects</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
-
-    <a class="nav-cta" href="{{ '/files/Research_Scientists_Resume_Winter2026.pdf' | relative_url }}" target="_blank" rel="noreferrer">
-      CV <span aria-hidden="true">↗</span>
-    </a>
-  </header>
-
-  <section class="hero">
-    <div class="hero-copy">
-      <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> PhD Candidate in Informatics · Penn State</p>
-      <h1>I study how AI systems decide <em>what information gets through.</em></h1>
-      <p class="hero-deck">I audit LLMs and AI agents when they sit between people and digital services or complex information. My work focuses on privacy, content selection, and the consequences of what gets disclosed, emphasized, or left out.</p>
-      <div class="hero-actions">
-        <a class="button button-primary" href="#research">Explore my research <span aria-hidden="true">↓</span></a>
-        <a class="button button-quiet" href="https://scholar.google.com/citations?hl=en&amp;user=uHhMvzgAAAAJ" target="_blank" rel="noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
-      </div>
-      <div class="availability">
-        <span class="availability-label">Currently</span>
-        <span>Open to research collaborations and applied AI conversations</span>
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="container nav-inner">
+      <a href="#top" class="nav-name">Shahriar Shayesteh</a>
+      <div class="nav-links">
+        <a href="#research">Research</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="{{ '/files/Research_Scientists_Resume_Winter2026.pdf' | relative_url }}" target="_blank" rel="noreferrer">CV</a>
       </div>
     </div>
+  </nav>
 
-    <div class="portrait-wrap">
-      <div class="portrait-frame">
-        <img src="{{ '/images/home/shahriar-portrait-2026.png' | relative_url }}" alt="Shahriar Shayesteh">
-        <span class="portrait-grid" aria-hidden="true"></span>
-      </div>
-      <div class="portrait-caption">
-        <span>Human Language Technologies Lab</span>
-        <span>State College, PA</span>
-      </div>
-    </div>
-  </section>
+  <main id="top" class="container academic-home">
+    <header class="intro">
+      <div>
+        <h1>Shahriar Shayesteh</h1>
+        <p class="position">PhD Candidate in Informatics · Pennsylvania State University</p>
 
-  <section class="section research-section" id="research">
-    <div class="section-heading">
-      <p class="section-kicker">Research</p>
-      <h2>AI increasingly sits between people and other systems.</h2>
-      <p>In that position, AI does more than generate language. It helps decide what information passes through. I study those decisions in two directions: what AI agents send when acting for users, and what LLMs leave out when explaining complex information.</p>
-    </div>
-
-    <div class="research-list">
-      <article class="research-card blue">
-        <div class="research-number">01</div>
-        <div class="research-body">
-          <p class="card-label">Agentic AI privacy</p>
-          <h3>When AI speaks for us, what gets sent?</h3>
-          <p class="card-copy">AI agents increasingly communicate with external services on users' behalf. I study how tool interfaces shape what personal information agents can include in those requests, and when interface design creates opportunities for unnecessary disclosure.</p>
-          <p class="card-proof">2,344 tool schemas audited · PrivateNLP @ ACL 2026</p>
+        <div class="research-summary">
+          <p>I am a PhD candidate in Informatics at Penn State, advised by <a href="https://shomir.net/" target="_blank" rel="noreferrer">Shomir Wilson</a> in the Human Language Technologies Lab.</p>
+          <p>My research lies at the intersection of <strong>Responsible AI, Natural Language Processing, and Human-Centered AI</strong>. I audit LLMs and AI agents, focusing on how they select and disclose information when they act between people and other systems.</p>
+          <p>My current work studies two complementary questions: <strong>what AI agents send when acting on users' behalf</strong>, and <strong>what LLMs leave out when explaining complex information to users</strong>.</p>
         </div>
-      </article>
 
-      <article class="research-card green">
-        <div class="research-number">02</div>
-        <div class="research-body">
-          <p class="card-label">LLM content selection</p>
-          <h3>When AI explains things to us, what gets left out?</h3>
-          <p class="card-copy">LLMs can make long consumer contracts much easier to understand, but a clear and accurate explanation can still omit consequential terms or lose important conditions and exceptions. I audit what these systems emphasize, underemphasize, and leave out, comparing their explanations with contract structure, what consumers discuss publicly, and legally consequential mechanisms grounded in prior legal scholarship.</p>
-          <p class="card-proof">Ongoing research · Consumer contracts · Legal NLP</p>
+        <div class="profile-links" aria-label="Academic and professional profiles">
+          <a href="https://scholar.google.com/citations?hl=en&amp;user=uHhMvzgAAAAJ" target="_blank" rel="noreferrer">Google Scholar</a>
+          <a href="{{ '/files/Research_Scientists_Resume_Winter2026.pdf' | relative_url }}" target="_blank" rel="noreferrer">CV</a>
+          <a href="https://github.com/shahriarshayesteh" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/shahriar-shayesteh" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="mailto:shahriar.shayesteh92@gmail.com">Email</a>
         </div>
-      </article>
-
-      <p class="research-methods">Across both directions, I use black-box auditing, controlled experiments, human annotation, and source-grounded evaluation.</p>
-    </div>
-  </section>
-
-  <section class="publications-section" id="publications">
-    <div class="publications-inner">
-      <div class="publications-heading">
-        <p class="section-kicker">Publications</p>
-        <h2>Selected publications.</h2>
-        <a href="https://scholar.google.com/citations?hl=en&amp;user=uHhMvzgAAAAJ" target="_blank" rel="noreferrer">All publications on Google Scholar <span aria-hidden="true">↗</span></a>
       </div>
 
-      <div class="publication-list">
-        <article class="publication-row">
-          <div class="publication-meta"><strong>2026</strong><span>PrivateNLP @ ACL</span></div>
-          <div><h3>From Conventional Web Privacy to Agentic Disclosure: How Tool Schemas May Invite LLM Oversharing</h3><p>How tool interfaces can create conditions for unnecessary disclosure by AI agents.</p></div>
-        </article>
+      <figure class="profile-photo-wrap">
+        <img class="profile-photo" src="{{ '/images/home/shahriar-portrait-2026.png' | relative_url }}" alt="Shahriar Shayesteh">
+        <figcaption class="photo-caption">Human Language Technologies Lab<br>Penn State</figcaption>
+      </figure>
+    </header>
 
-        <article class="publication-row">
-          <div class="publication-meta"><strong>2025</strong><span>ACM DocEng</span></div>
-          <div><h3>SoACer: Sector-Based Corpus and LLM-Based Framework for Sectoral Website Classification</h3><p>Large-scale analysis of web content and online documents.</p></div>
-          <a class="publication-link" href="https://dl.acm.org/doi/abs/10.1145/3704268.3742691" target="_blank" rel="noreferrer" aria-label="Open SoACer paper">↗</a>
-        </article>
+    <section id="research">
+      <h2>Research</h2>
+      <p class="research-intro">AI systems increasingly sit between people and digital services, organizations, and complex information. In that position, they do more than generate language: they help determine what information passes through. I study those decisions in two directions.</p>
 
-        <article class="publication-row">
-          <div class="publication-meta"><strong>2025</strong><span>USENIX SOUPS</span></div>
-          <div><h3>The PrivaSeer Project: Large-Scale Resources for Analysis of Privacy Policy Text</h3><p>Web-scale infrastructure and datasets for privacy-policy research.</p></div>
-          <a class="publication-link" href="https://shomir.net/pdf/publications/privaseer_soups_2025_paper.pdf" target="_blank" rel="noreferrer" aria-label="Open PrivaSeer paper">↗</a>
-        </article>
+      <article class="research-direction">
+        <h3 class="research-question">When AI speaks for us, what gets sent?</h3>
+        <p>AI agents increasingly communicate with third-party services on users' behalf. I study how tool interfaces shape what personal information agents can include in those requests, and when interface design creates opportunities for unnecessary disclosure.</p>
+        <p class="research-meta">Agentic AI · Privacy · Tool Use · Contextual Integrity<br>2,344 tool schemas audited · PrivateNLP @ ACL 2026</p>
+      </article>
 
-        <article class="publication-row">
-          <div class="publication-meta"><strong>2022</strong><span>FLAIRS-35</span></div>
-          <div><h3>Generative Adversarial Learning with Negative Data Augmentation for Semi-Supervised Text Classification</h3><p>Earlier work on learning from limited labeled text data.</p></div>
-          <a class="publication-link" href="https://journals.flvc.org/FLAIRS/article/view/130722/133883" target="_blank" rel="noreferrer" aria-label="Open generative adversarial learning paper">↗</a>
-        </article>
+      <article class="research-direction">
+        <h3 class="research-question">When AI explains things to us, what gets left out?</h3>
+        <p>LLMs can make long consumer contracts much easier to understand, but a clear and accurate explanation can still omit consequential terms or lose important conditions and exceptions. I study what these systems emphasize, underemphasize, and leave out.</p>
+        <p class="research-meta">LLM Auditing · Content Selection · Legal NLP · Consumer Protection<br>Ongoing research · Consumer contracts</p>
+      </article>
+
+      <p class="methods">Across both directions, I use black-box auditing, controlled experiments, human annotation, and source-grounded evaluation.</p>
+    </section>
+
+    <section id="news">
+      <h2>News</h2>
+      <div class="news-list">
+        <div class="news-item">
+          <time datetime="2026-08">Aug 2026</time>
+          <p>Invited to give a guest lecture in <em>IST 574: Human Language Technologies</em> at Penn State.</p>
+        </div>
+        <div class="news-item">
+          <time datetime="2026-07">Jul 2026</time>
+          <p>Presented <a href="https://aclanthology.org/2026.privatenlp-main.1/" target="_blank" rel="noreferrer"><em>From Conventional Web Privacy to Agentic Disclosure</em></a> at PrivateNLP @ ACL 2026.</p>
+        </div>
+        <div class="news-item">
+          <time datetime="2025">2025</time>
+          <p><a href="https://dl.acm.org/doi/abs/10.1145/3704268.3742691" target="_blank" rel="noreferrer">SoACer</a> published at ACM DocEng 2025.</p>
+        </div>
+        <div class="news-item">
+          <time datetime="2025">2025</time>
+          <p><a href="https://www.usenix.org/conference/soups2025/presentation/wilson-poster" target="_blank" rel="noreferrer">PrivaSeer</a> presented at USENIX SOUPS 2025.</p>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="section academic-work" id="work">
-    <div class="section-heading academic-work-heading">
-      <p class="section-kicker">Projects</p>
-      <h2>Current and recent projects.</h2>
-      <p>Current work on agent privacy and LLM content selection, grounded in earlier web-scale privacy and NLP research.</p>
-    </div>
+    <section id="publications">
+      <h2>Selected Publications</h2>
 
-    <div class="academic-project-list">
-      <article class="academic-project">
-        <div class="academic-project-meta"><span>2026</span><strong>Agentic AI privacy</strong></div>
-        <div class="academic-project-main">
-          <h3>Privacy at the Tool Interface</h3>
-          <p class="project-venue">PrivateNLP @ ACL 2026</p>
-          <p>How tool-schema design shapes the information AI agents can send to third-party services, with a focus on privacy, data minimization, and context-sensitive disclosure.</p>
-        </div>
+      <article class="publication">
+        <h3>From Conventional Web Privacy to Agentic Disclosure: How Tool Schemas May Invite LLM Oversharing</h3>
+        <p class="pub-authors"><strong>Shahriar Shayesteh</strong>, Shomir Wilson</p>
+        <p class="pub-venue">PrivateNLP @ ACL 2026</p>
+        <p class="pub-links"><a href="https://aclanthology.org/2026.privatenlp-main.1/" target="_blank" rel="noreferrer">paper</a></p>
       </article>
 
-      <article class="academic-project">
-        <div class="academic-project-meta"><span>Ongoing</span><strong>Legal NLP</strong></div>
-        <div class="academic-project-main">
-          <h3>Content Selection in Consumer-Contract Explanations</h3>
-          <p class="project-venue">Consumer contracts · LLM auditing</p>
-          <p>Whether LLM explanations preserve important topics, legally meaningful conditions, and exceptions when simplifying dense consumer contracts.</p>
-        </div>
+      <article class="publication">
+        <h3>SoAC and SoACer: A Sector-Based Corpus and LLM-Based Framework for Sectoral Website Classification</h3>
+        <p class="pub-authors"><strong>Shahriar Shayesteh</strong>, Mukund Srinath, Lucy Matheson, Lu Xian, Sumon Saha, C. Lee Giles, Shomir Wilson</p>
+        <p class="pub-venue">ACM DocEng 2025</p>
+        <p class="pub-links">
+          <a href="https://dl.acm.org/doi/abs/10.1145/3704268.3742691" target="_blank" rel="noreferrer">paper</a>
+          <a href="https://github.com/shahriarshayesteh/SoAC_DocEng2025" target="_blank" rel="noreferrer">code</a>
+          <a href="https://huggingface.co/datasets/Shahriar/SoAC_Corpus" target="_blank" rel="noreferrer">data</a>
+        </p>
       </article>
 
-      <article class="academic-project">
-        <div class="academic-project-meta"><span>2025</span><strong>Privacy NLP</strong></div>
-        <div class="academic-project-main">
-          <h3>Web-Scale Privacy Measurement</h3>
-          <p class="project-venue">SoACer · PrivaSeer</p>
-          <p>Large-scale NLP and measurement work on privacy policies and web documents, including SoACer and PrivaSeer.</p>
-          <div class="academic-links">
-            <a href="https://dl.acm.org/doi/abs/10.1145/3704268.3742691" target="_blank" rel="noreferrer">SoACer paper <span aria-hidden="true">↗</span></a>
-            <a href="https://shomir.net/pdf/publications/privaseer_soups_2025_paper.pdf" target="_blank" rel="noreferrer">PrivaSeer paper <span aria-hidden="true">↗</span></a>
-            <a href="https://huggingface.co/datasets/Shahriar/SoAC_Corpus" target="_blank" rel="noreferrer">Dataset <span aria-hidden="true">↗</span></a>
-          </div>
-        </div>
+      <article class="publication">
+        <h3>The PrivaSeer Project: Large-Scale Resources for Analysis of Privacy Policy Text</h3>
+        <p class="pub-authors">Shomir Wilson, Florian Schaub, Lee Matheson, <strong>Shahriar Shayesteh</strong>, Lu Xian</p>
+        <p class="pub-venue">USENIX SOUPS 2025 · Poster</p>
+        <p class="pub-links">
+          <a href="https://www.usenix.org/system/files/soups2025_poster1_abstract-wilson.pdf" target="_blank" rel="noreferrer">paper</a>
+          <a href="https://privaseer.ist.psu.edu/" target="_blank" rel="noreferrer">project</a>
+        </p>
       </article>
-    </div>
-  </section>
 
-  <section class="about-section" id="about" aria-labelledby="about-title">
-    <div class="about-heading">
-      <p class="section-kicker">About</p>
-      <h2 id="about-title">About Shahriar.</h2>
-    </div>
-    <p class="about-copy">Shahriar Shayesteh is a PhD candidate in Informatics at Penn State, working with Shomir Wilson in the Human Language Technologies Lab. His research focuses on auditing how LLMs and AI agents select and disclose information. His current work examines privacy in tool-using agents and content selection in AI explanations of consumer contracts.</p>
-  </section>
-
-  <section class="section trajectory-section" aria-labelledby="trajectory-title">
-    <div class="trajectory-intro">
-      <p class="section-kicker">Experience</p>
-      <h2 id="trajectory-title">Academic and research experience.</h2>
-    </div>
-
-    <div class="timeline">
-      <article>
-        <div><strong>2023—Now</strong><span>Penn State</span></div>
-        <div><h3>PhD Candidate &amp; Graduate Research Assistant</h3><p>Human Language Technologies Lab · privacy, responsible AI, and web-scale NLP.</p></div>
+      <article class="publication">
+        <h3>Generative Adversarial Learning with Negative Data Augmentation for Semi-Supervised Text Classification</h3>
+        <p class="pub-authors"><strong>Shahriar Shayesteh</strong>, Diana Inkpen</p>
+        <p class="pub-venue">FLAIRS-35 · 2022</p>
+        <p class="pub-links"><a href="https://journals.flvc.org/FLAIRS/article/view/130722/133883" target="_blank" rel="noreferrer">paper</a></p>
       </article>
-      <article>
-        <div><strong>2022</strong><span>Government of Canada</span></div>
-        <div><h3>Research Intern</h3><p>Applied NLP to qualitative corpora and translated findings for public-sector stakeholders.</p></div>
+
+      <p class="all-publications"><a href="https://scholar.google.com/citations?hl=en&amp;user=uHhMvzgAAAAJ" target="_blank" rel="noreferrer">See full publication list on Google Scholar →</a></p>
+    </section>
+
+    <section id="projects">
+      <h2>Current &amp; Recent Projects</h2>
+      <article class="project">
+        <h3>Privacy at the Tool Interface</h3>
+        <p>Studying how tool-schema design shapes the information AI agents can send to third-party services, with a focus on privacy, data minimization, and context-sensitive disclosure.</p>
       </article>
-      <article>
-        <div><strong>2021—2023</strong><span>University of Ottawa</span></div>
-        <div><h3>Graduate Research Assistant</h3><p>Fairness and robustness in semi-supervised text classification.</p></div>
+      <article class="project">
+        <h3>Content Selection in Consumer-Contract Explanations</h3>
+        <p>Auditing whether LLM explanations preserve important topics, legally meaningful conditions, and exceptions when simplifying dense consumer contracts.</p>
       </article>
-    </div>
-  </section>
+      <article class="project">
+        <h3>Web-Scale Privacy Measurement</h3>
+        <p>Large-scale NLP and measurement research on privacy policies and web documents, including SoACer and PrivaSeer.</p>
+      </article>
+    </section>
+  </main>
 
-  <section class="contact-section" id="contact">
-    <div class="contact-copy">
-      <p class="section-kicker light">Let's connect</p>
-      <h2>Interested in working together?</h2>
-      <p>I'm glad to hear from researchers, builders, and teams working on privacy-aware agents, trustworthy NLP, evaluation, or empirical AI governance.</p>
-      <a class="button contact-button" href="mailto:shahriar.shayesteh92@gmail.com">Email Shahriar <span aria-hidden="true">↗</span></a>
+  <footer>
+    <div class="container footer-inner">
+      <span>© 2026 Shahriar Shayesteh · Pennsylvania State University</span>
+      <a href="mailto:shahriar.shayesteh92@gmail.com">Email</a>
     </div>
-
-    <div class="contact-paths">
-      <p>Good reasons to reach out</p>
-      <ul>
-        <li><span>01</span>Collaborate on agent and tool-use evaluations</li>
-        <li><span>02</span>Build on a dataset or research pipeline</li>
-        <li><span>03</span>Discuss research or applied AI opportunities</li>
-      </ul>
-    </div>
-  </section>
-
-  <footer class="site-footer">
-    <div class="footer-name"><strong>Shahriar Shayesteh</strong><span>AI &amp; Privacy Researcher · Penn State</span></div>
-    <div class="footer-links">
-      <a href="https://scholar.google.com/citations?hl=en&amp;user=uHhMvzgAAAAJ" target="_blank" rel="noreferrer">Scholar <span aria-hidden="true">↗</span></a>
-      <a href="https://github.com/shahriarshayesteh" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
-      <a href="https://www.linkedin.com/in/shahriar-shayesteh" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
-      <a href="{{ '/files/Research_Scientists_Resume_Winter2026.pdf' | relative_url }}" target="_blank" rel="noreferrer">CV <span aria-hidden="true">↗</span></a>
-    </div>
-    <p>© 2026 Shahriar Shayesteh</p>
   </footer>
-</main>

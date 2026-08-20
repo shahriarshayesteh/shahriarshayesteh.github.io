@@ -2,13 +2,11 @@
 main:
   - title: "Research"
     url: /#research
+  - title: "News"
+    url: /#news
   - title: "Publications"
     url: /#publications
   - title: "Projects"
-    url: /#work
-  - title: "About"
-    url: /#about
-  - title: "Contact"
-    url: /#contact
+    url: /#projects
   - title: "CV"
-    url: /cv/
+    url: /files/Research_Scientists_Resume_Winter2026.pdf

@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Shahriar Shayesteh"
-excerpt: "Auditing how LLMs and AI agents decide what information gets disclosed, emphasized, or left out."
+excerpt: "Research on Responsible AI, NLP, LLM auditing, agentic AI privacy, and content selection."
 layout: home
 author_profile: false
 redirect_from: 
