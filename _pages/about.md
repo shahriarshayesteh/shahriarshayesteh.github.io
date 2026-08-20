@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Shahriar Shayesteh"
-excerpt: "AI and privacy research spanning agentic disclosure, web-scale measurement, and trustworthy NLP."
+excerpt: "Auditing how LLMs and AI agents decide what information gets disclosed, emphasized, or left out."
 layout: home
 author_profile: false
 redirect_from: 

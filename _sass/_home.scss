@@ -391,6 +391,15 @@
   text-transform: uppercase;
 }
 
+.research-methods {
+  margin: 28px 0 0;
+  padding: 22px 0 0;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.65;
+}
+
 .publications-section {
   padding: 120px 24px;
   background: #e8e5dc;
@@ -460,9 +469,8 @@
 .publication-row p {
   margin: 0;
   color: var(--muted);
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
+  font-size: 13px;
+  line-height: 1.5;
 }
 
 .publication-link {
@@ -564,6 +572,32 @@
 .academic-links a:hover {
   text-decoration: underline;
   text-underline-offset: 4px;
+}
+
+.about-section {
+  width: min(1240px, calc(100% - 48px));
+  margin: 0 auto;
+  padding: 104px 0;
+  display: grid;
+  grid-template-columns: 0.62fr 1.38fr;
+  gap: clamp(64px, 10vw, 150px);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.about-heading h2 {
+  margin: 18px 0 0;
+  color: var(--ink);
+  font: 500 clamp(42px, 4.3vw, 66px)/1 Georgia, serif;
+  letter-spacing: -0.05em;
+}
+
+.about-copy {
+  max-width: 760px;
+  margin: 0;
+  color: #3f4845;
+  font: 500 clamp(21px, 2.1vw, 30px)/1.5 Georgia, serif;
+  letter-spacing: -0.018em;
 }
 
 .trajectory-section {
@@ -746,11 +780,13 @@
   .research-section,
   .academic-work,
   .publications-inner,
+  .about-section,
   .trajectory-section,
   .contact-section { grid-template-columns: 1fr; }
   .research-section,
   .academic-work { gap: 64px; }
   .publications-inner,
+  .about-section,
   .trajectory-section,
   .contact-section { gap: 70px; }
   .site-footer { grid-template-columns: 1fr 1fr; padding: 36px 0; }
@@ -762,6 +798,7 @@
   .site-header,
   .hero,
   .section,
+  .about-section,
   .site-footer { width: min(100% - 32px, 1240px); }
   .site-header { min-height: 78px; }
   .wordmark small { display: none; }
@@ -776,6 +813,8 @@
   .publications-section { padding: 82px 16px; }
   .publication-row { grid-template-columns: 74px 1fr; gap: 16px; }
   .publication-link { display: none; }
+  .about-section { padding: 82px 0; gap: 34px; }
+  .about-copy { font-size: 20px; }
   .timeline article { grid-template-columns: 1fr; gap: 18px; }
   .contact-section { padding: 82px 16px; }
   .site-footer { grid-template-columns: 1fr; gap: 28px; }
