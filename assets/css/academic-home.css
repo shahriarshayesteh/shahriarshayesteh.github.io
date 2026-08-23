@@ -112,9 +112,16 @@
 }
 
 .portfolio-home .position {
-  margin: 0 0 21px;
+  margin: 0 0 5px;
   color: var(--muted);
   font-size: 17px;
+}
+
+.portfolio-home .availability {
+  margin: 0 0 21px;
+  color: var(--accent);
+  font-size: 15px;
+  font-weight: 650;
 }
 
 .portfolio-home .research-summary {
@@ -280,6 +287,12 @@
 
 .portfolio-home .project p {
   margin-bottom: 0;
+}
+
+.portfolio-home .project-status {
+  margin: -2px 0 6px !important;
+  color: var(--muted);
+  font-size: 14px;
 }
 
 .portfolio-home > footer {
