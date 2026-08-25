@@ -208,6 +208,30 @@
   font-weight: 700;
 }
 
+.portfolio-home .research-subprojects {
+  margin: 18px 0 0;
+  padding-left: 1.35rem;
+}
+
+.portfolio-home .research-subprojects li {
+  margin-bottom: 28px;
+  padding-left: 0.3rem;
+}
+
+.portfolio-home .research-subprojects li:last-child {
+  margin-bottom: 0;
+}
+
+.portfolio-home .research-subprojects h4 {
+  margin: 0 0 8px;
+  font-size: 1.08rem;
+  line-height: 1.4;
+}
+
+.portfolio-home .research-subprojects p {
+  margin: 0 0 10px;
+}
+
 .portfolio-home .research-meta {
   margin-top: 10px;
   color: var(--muted);
